@@ -1,0 +1,3046 @@
+{
+  "schema": "omi.canvas.toolbox.polytope.v0",
+  "sourceSchema": "omi.polytope.registry.v0",
+  "generatedFrom": "omi_regular_polytope_registry.json",
+  "invariant": "This registry is data only. Rendering is projection; receipt/validation remains authority.",
+  "templateKinds": {
+    "polytope": "snap-to-grid drag template",
+    "configurationWitness": "projection metadata witness card"
+  },
+  "templates": [
+    {
+      "kind": "polytope",
+      "id": "dion",
+      "label": "Dion / line segment",
+      "rank": 1,
+      "dimension": 1,
+      "category": "finite.convex",
+      "schlafli": "{}",
+      "counts": {
+        "vertices": 2,
+        "edges": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Unique rank-1 regular polytope."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-1",
+      "label": "Monogon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "spherical.degenerate",
+      "schlafli": "{1}",
+      "counts": {
+        "vertices": 1,
+        "edges": 1,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-2",
+      "label": "Digon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "spherical.degenerate",
+      "schlafli": "{2}",
+      "counts": {
+        "vertices": 2,
+        "edges": 2,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-3",
+      "label": "Triangle",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{3}",
+      "counts": {
+        "vertices": 3,
+        "edges": 3,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-4",
+      "label": "Square",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{4}",
+      "counts": {
+        "vertices": 4,
+        "edges": 4,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-5",
+      "label": "Pentagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{5}",
+      "counts": {
+        "vertices": 5,
+        "edges": 5,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-6",
+      "label": "Hexagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{6}",
+      "counts": {
+        "vertices": 6,
+        "edges": 6,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-7",
+      "label": "Heptagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{7}",
+      "counts": {
+        "vertices": 7,
+        "edges": 7,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-8",
+      "label": "Octagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{8}",
+      "counts": {
+        "vertices": 8,
+        "edges": 8,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-9",
+      "label": "Nonagon / Enneagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{9}",
+      "counts": {
+        "vertices": 9,
+        "edges": 9,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-10",
+      "label": "Decagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{10}",
+      "counts": {
+        "vertices": 10,
+        "edges": 10,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-11",
+      "label": "Hendecagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{11}",
+      "counts": {
+        "vertices": 11,
+        "edges": 11,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-12",
+      "label": "Dodecagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{12}",
+      "counts": {
+        "vertices": 12,
+        "edges": 12,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-13",
+      "label": "Tridecagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{13}",
+      "counts": {
+        "vertices": 13,
+        "edges": 13,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-14",
+      "label": "Tetradecagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{14}",
+      "counts": {
+        "vertices": 14,
+        "edges": 14,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-15",
+      "label": "Pentadecagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{15}",
+      "counts": {
+        "vertices": 15,
+        "edges": 15,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-16",
+      "label": "Hexadecagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{16}",
+      "counts": {
+        "vertices": 16,
+        "edges": 16,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-17",
+      "label": "Heptadecagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{17}",
+      "counts": {
+        "vertices": 17,
+        "edges": 17,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-18",
+      "label": "Octadecagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{18}",
+      "counts": {
+        "vertices": 18,
+        "edges": 18,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-19",
+      "label": "Enneadecagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{19}",
+      "counts": {
+        "vertices": 19,
+        "edges": 19,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-20",
+      "label": "Icosagon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.convex",
+      "schlafli": "{20}",
+      "counts": {
+        "vertices": 20,
+        "edges": 20,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular polygon carrier."
+    },
+    {
+      "kind": "polytope",
+      "id": "polygon-p",
+      "label": "p-gon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "family.convex",
+      "schlafli": "{p}",
+      "counts": {
+        "vertices": "p",
+        "edges": "p",
+        "faces": 1
+      },
+      "dual": "self",
+      "family": true,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Infinite family of convex regular polygons where p >= 3."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-5-2",
+      "label": "5/2-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{5/2}",
+      "counts": {
+        "vertices": 5,
+        "edges": 5,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-7-2",
+      "label": "7/2-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{7/2}",
+      "counts": {
+        "vertices": 7,
+        "edges": 7,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-7-3",
+      "label": "7/3-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{7/3}",
+      "counts": {
+        "vertices": 7,
+        "edges": 7,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-8-3",
+      "label": "8/3-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{8/3}",
+      "counts": {
+        "vertices": 8,
+        "edges": 8,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-9-2",
+      "label": "9/2-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{9/2}",
+      "counts": {
+        "vertices": 9,
+        "edges": 9,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-9-4",
+      "label": "9/4-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{9/4}",
+      "counts": {
+        "vertices": 9,
+        "edges": 9,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-10-3",
+      "label": "10/3-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{10/3}",
+      "counts": {
+        "vertices": 10,
+        "edges": 10,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-11-2",
+      "label": "11/2-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{11/2}",
+      "counts": {
+        "vertices": 11,
+        "edges": 11,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-11-3",
+      "label": "11/3-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{11/3}",
+      "counts": {
+        "vertices": 11,
+        "edges": 11,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-11-4",
+      "label": "11/4-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{11/4}",
+      "counts": {
+        "vertices": 11,
+        "edges": 11,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-11-5",
+      "label": "11/5-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{11/5}",
+      "counts": {
+        "vertices": 11,
+        "edges": 11,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-12-5",
+      "label": "12/5-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{12/5}",
+      "counts": {
+        "vertices": 12,
+        "edges": 12,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-13-2",
+      "label": "13/2-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{13/2}",
+      "counts": {
+        "vertices": 13,
+        "edges": 13,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-13-3",
+      "label": "13/3-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{13/3}",
+      "counts": {
+        "vertices": 13,
+        "edges": 13,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-13-4",
+      "label": "13/4-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{13/4}",
+      "counts": {
+        "vertices": 13,
+        "edges": 13,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-13-5",
+      "label": "13/5-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{13/5}",
+      "counts": {
+        "vertices": 13,
+        "edges": 13,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-13-6",
+      "label": "13/6-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{13/6}",
+      "counts": {
+        "vertices": 13,
+        "edges": 13,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-14-3",
+      "label": "14/3-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{14/3}",
+      "counts": {
+        "vertices": 14,
+        "edges": 14,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-14-5",
+      "label": "14/5-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{14/5}",
+      "counts": {
+        "vertices": 14,
+        "edges": 14,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-15-2",
+      "label": "15/2-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{15/2}",
+      "counts": {
+        "vertices": 15,
+        "edges": 15,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-15-4",
+      "label": "15/4-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{15/4}",
+      "counts": {
+        "vertices": 15,
+        "edges": 15,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-15-7",
+      "label": "15/7-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{15/7}",
+      "counts": {
+        "vertices": 15,
+        "edges": 15,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-16-3",
+      "label": "16/3-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{16/3}",
+      "counts": {
+        "vertices": 16,
+        "edges": 16,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-16-5",
+      "label": "16/5-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{16/5}",
+      "counts": {
+        "vertices": 16,
+        "edges": 16,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-16-7",
+      "label": "16/7-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{16/7}",
+      "counts": {
+        "vertices": 16,
+        "edges": 16,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-17-2",
+      "label": "17/2-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{17/2}",
+      "counts": {
+        "vertices": 17,
+        "edges": 17,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-17-3",
+      "label": "17/3-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{17/3}",
+      "counts": {
+        "vertices": 17,
+        "edges": 17,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-17-4",
+      "label": "17/4-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{17/4}",
+      "counts": {
+        "vertices": 17,
+        "edges": 17,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-17-5",
+      "label": "17/5-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{17/5}",
+      "counts": {
+        "vertices": 17,
+        "edges": 17,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-17-6",
+      "label": "17/6-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{17/6}",
+      "counts": {
+        "vertices": 17,
+        "edges": 17,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-17-7",
+      "label": "17/7-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{17/7}",
+      "counts": {
+        "vertices": 17,
+        "edges": 17,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-17-8",
+      "label": "17/8-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{17/8}",
+      "counts": {
+        "vertices": 17,
+        "edges": 17,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-18-5",
+      "label": "18/5-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{18/5}",
+      "counts": {
+        "vertices": 18,
+        "edges": 18,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-18-7",
+      "label": "18/7-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{18/7}",
+      "counts": {
+        "vertices": 18,
+        "edges": 18,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-19-2",
+      "label": "19/2-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{19/2}",
+      "counts": {
+        "vertices": 19,
+        "edges": 19,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-19-3",
+      "label": "19/3-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{19/3}",
+      "counts": {
+        "vertices": 19,
+        "edges": 19,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-19-4",
+      "label": "19/4-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{19/4}",
+      "counts": {
+        "vertices": 19,
+        "edges": 19,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-19-5",
+      "label": "19/5-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{19/5}",
+      "counts": {
+        "vertices": 19,
+        "edges": 19,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-19-6",
+      "label": "19/6-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{19/6}",
+      "counts": {
+        "vertices": 19,
+        "edges": 19,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-19-7",
+      "label": "19/7-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{19/7}",
+      "counts": {
+        "vertices": 19,
+        "edges": 19,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-19-8",
+      "label": "19/8-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{19/8}",
+      "counts": {
+        "vertices": 19,
+        "edges": 19,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-19-9",
+      "label": "19/9-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{19/9}",
+      "counts": {
+        "vertices": 19,
+        "edges": 19,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-20-3",
+      "label": "20/3-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{20/3}",
+      "counts": {
+        "vertices": 20,
+        "edges": 20,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-20-7",
+      "label": "20/7-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{20/7}",
+      "counts": {
+        "vertices": 20,
+        "edges": 20,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-20-9",
+      "label": "20/9-gram",
+      "rank": 2,
+      "dimension": 2,
+      "category": "finite.star",
+      "schlafli": "{20/9}",
+      "counts": {
+        "vertices": 20,
+        "edges": 20,
+        "faces": 1
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular star polygon."
+    },
+    {
+      "kind": "polytope",
+      "id": "star-polygon-n-m",
+      "label": "n/m star polygon",
+      "rank": 2,
+      "dimension": 2,
+      "category": "family.star",
+      "schlafli": "{n/m}",
+      "counts": {
+        "vertices": "n",
+        "edges": "n",
+        "faces": 1
+      },
+      "dual": null,
+      "family": true,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "m < n/2, gcd(n,m)=1. Infinite family."
+    },
+    {
+      "kind": "polytope",
+      "id": "tetrahedron",
+      "label": "Tetrahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "finite.convex",
+      "schlafli": "{3,3}",
+      "counts": {
+        "vertices": 4,
+        "edges": 6,
+        "faces": 4
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": "4y²/Platonic low-plane",
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "cube",
+      "label": "Cube / Hexahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "finite.convex",
+      "schlafli": "{4,3}",
+      "counts": {
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6
+      },
+      "dual": "octahedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": "4y²/Platonic low-plane",
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "octahedron",
+      "label": "Octahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "finite.convex",
+      "schlafli": "{3,4}",
+      "counts": {
+        "vertices": 6,
+        "edges": 12,
+        "faces": 8
+      },
+      "dual": "cube",
+      "family": false,
+      "finite": true,
+      "omiPlane": "4y²/Platonic low-plane",
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "dodecahedron",
+      "label": "Dodecahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "finite.convex",
+      "schlafli": "{5,3}",
+      "counts": {
+        "vertices": 20,
+        "edges": 30,
+        "faces": 12
+      },
+      "dual": "icosahedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": "4y²/Platonic low-plane",
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "icosahedron",
+      "label": "Icosahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "finite.convex",
+      "schlafli": "{3,5}",
+      "counts": {
+        "vertices": 12,
+        "edges": 30,
+        "faces": 20
+      },
+      "dual": "dodecahedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": "4y²/Platonic low-plane",
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "2-gonal-hosohedron",
+      "label": "Digon hosohedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "spherical.hosohedron",
+      "schlafli": "{2,2}",
+      "counts": {
+        "vertices": 2,
+        "edges": 2,
+        "faces": 2
+      },
+      "dual": "2-gonal-dihedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "2-gonal-dihedron",
+      "label": "Digon dihedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "spherical.dihedron",
+      "schlafli": "{2,2}",
+      "counts": {
+        "vertices": 2,
+        "edges": 2,
+        "faces": 2
+      },
+      "dual": "2-gonal-hosohedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "3-gonal-hosohedron",
+      "label": "Triangle hosohedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "spherical.hosohedron",
+      "schlafli": "{2,3}",
+      "counts": {
+        "vertices": 2,
+        "edges": 3,
+        "faces": 3
+      },
+      "dual": "3-gonal-dihedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "3-gonal-dihedron",
+      "label": "Triangle dihedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "spherical.dihedron",
+      "schlafli": "{3,2}",
+      "counts": {
+        "vertices": 3,
+        "edges": 3,
+        "faces": 2
+      },
+      "dual": "3-gonal-hosohedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "4-gonal-hosohedron",
+      "label": "Square hosohedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "spherical.hosohedron",
+      "schlafli": "{2,4}",
+      "counts": {
+        "vertices": 2,
+        "edges": 4,
+        "faces": 4
+      },
+      "dual": "4-gonal-dihedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "4-gonal-dihedron",
+      "label": "Square dihedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "spherical.dihedron",
+      "schlafli": "{4,2}",
+      "counts": {
+        "vertices": 4,
+        "edges": 4,
+        "faces": 2
+      },
+      "dual": "4-gonal-hosohedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "5-gonal-hosohedron",
+      "label": "Pentagon hosohedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "spherical.hosohedron",
+      "schlafli": "{2,5}",
+      "counts": {
+        "vertices": 2,
+        "edges": 5,
+        "faces": 5
+      },
+      "dual": "5-gonal-dihedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "5-gonal-dihedron",
+      "label": "Pentagon dihedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "spherical.dihedron",
+      "schlafli": "{5,2}",
+      "counts": {
+        "vertices": 5,
+        "edges": 5,
+        "faces": 2
+      },
+      "dual": "5-gonal-hosohedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "6-gonal-hosohedron",
+      "label": "Hexagon hosohedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "spherical.hosohedron",
+      "schlafli": "{2,6}",
+      "counts": {
+        "vertices": 2,
+        "edges": 6,
+        "faces": 6
+      },
+      "dual": "6-gonal-dihedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "6-gonal-dihedron",
+      "label": "Hexagon dihedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "spherical.dihedron",
+      "schlafli": "{6,2}",
+      "counts": {
+        "vertices": 6,
+        "edges": 6,
+        "faces": 2
+      },
+      "dual": "6-gonal-hosohedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "p-gonal-hosohedron",
+      "label": "p-gonal hosohedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "family.spherical.hosohedron",
+      "schlafli": "{2,p}",
+      "counts": {
+        "vertices": 2,
+        "edges": "p",
+        "faces": "p"
+      },
+      "dual": "p-gonal-dihedron",
+      "family": true,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "p-gonal-dihedron",
+      "label": "p-gonal dihedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "family.spherical.dihedron",
+      "schlafli": "{p,2}",
+      "counts": {
+        "vertices": "p",
+        "edges": "p",
+        "faces": 2
+      },
+      "dual": "p-gonal-hosohedron",
+      "family": true,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "small-stellated-dodecahedron",
+      "label": "Small stellated dodecahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "finite.star",
+      "schlafli": "{5/2,5}",
+      "counts": {
+        "vertices": 12,
+        "edges": 30,
+        "faces": 12
+      },
+      "dual": "great-dodecahedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "great-dodecahedron",
+      "label": "Great dodecahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "finite.star",
+      "schlafli": "{5,5/2}",
+      "counts": {
+        "vertices": 12,
+        "edges": 30,
+        "faces": 12
+      },
+      "dual": "small-stellated-dodecahedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "great-stellated-dodecahedron",
+      "label": "Great stellated dodecahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "finite.star",
+      "schlafli": "{5/2,3}",
+      "counts": {
+        "vertices": 20,
+        "edges": 30,
+        "faces": 12
+      },
+      "dual": "great-icosahedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "great-icosahedron",
+      "label": "Great icosahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "finite.star",
+      "schlafli": "{3,5/2}",
+      "counts": {
+        "vertices": 12,
+        "edges": 30,
+        "faces": 20
+      },
+      "dual": "great-stellated-dodecahedron",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "5-cell",
+      "label": "5-cell / 4-simplex",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.convex",
+      "schlafli": "{3,3,3}",
+      "counts": {
+        "vertices": 5,
+        "edges": 10,
+        "faces": 10,
+        "cells": 5
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "8-cell",
+      "label": "8-cell / Tesseract / 4-cube",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.convex",
+      "schlafli": "{4,3,3}",
+      "counts": {
+        "vertices": 16,
+        "edges": 32,
+        "faces": 24,
+        "cells": 8
+      },
+      "dual": "16-cell",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "16-cell",
+      "label": "16-cell / 4-orthoplex",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.convex",
+      "schlafli": "{3,3,4}",
+      "counts": {
+        "vertices": 8,
+        "edges": 24,
+        "faces": 32,
+        "cells": 16
+      },
+      "dual": "8-cell",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "24-cell",
+      "label": "24-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.convex",
+      "schlafli": "{3,4,3}",
+      "counts": {
+        "vertices": 24,
+        "edges": 96,
+        "faces": 96,
+        "cells": 24
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "120-cell",
+      "label": "120-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.convex",
+      "schlafli": "{5,3,3}",
+      "counts": {
+        "vertices": 600,
+        "edges": 1200,
+        "faces": 720,
+        "cells": 120
+      },
+      "dual": "600-cell",
+      "family": false,
+      "finite": true,
+      "omiPlane": "60x² high-plane",
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "600-cell",
+      "label": "600-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.convex",
+      "schlafli": "{3,3,5}",
+      "counts": {
+        "vertices": 120,
+        "edges": 720,
+        "faces": 1200,
+        "cells": 600
+      },
+      "dual": "120-cell",
+      "family": false,
+      "finite": true,
+      "omiPlane": "60x² high-plane",
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "di-4-tope-0",
+      "label": "di-4-tope {3,3,2}",
+      "rank": 4,
+      "dimension": 4,
+      "category": "spherical.di-4-tope",
+      "schlafli": "{3,3,2}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular di-4-tope spherical tessellation."
+    },
+    {
+      "kind": "polytope",
+      "id": "di-4-tope-1",
+      "label": "di-4-tope {3,4,2}",
+      "rank": 4,
+      "dimension": 4,
+      "category": "spherical.di-4-tope",
+      "schlafli": "{3,4,2}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular di-4-tope spherical tessellation."
+    },
+    {
+      "kind": "polytope",
+      "id": "di-4-tope-2",
+      "label": "di-4-tope {4,3,2}",
+      "rank": 4,
+      "dimension": 4,
+      "category": "spherical.di-4-tope",
+      "schlafli": "{4,3,2}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular di-4-tope spherical tessellation."
+    },
+    {
+      "kind": "polytope",
+      "id": "di-4-tope-3",
+      "label": "di-4-tope {5,3,2}",
+      "rank": 4,
+      "dimension": 4,
+      "category": "spherical.di-4-tope",
+      "schlafli": "{5,3,2}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular di-4-tope spherical tessellation."
+    },
+    {
+      "kind": "polytope",
+      "id": "di-4-tope-4",
+      "label": "di-4-tope {3,5,2}",
+      "rank": 4,
+      "dimension": 4,
+      "category": "spherical.di-4-tope",
+      "schlafli": "{3,5,2}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular di-4-tope spherical tessellation."
+    },
+    {
+      "kind": "polytope",
+      "id": "di-4-tope-5",
+      "label": "di-4-tope {p,2,2}",
+      "rank": 4,
+      "dimension": 4,
+      "category": "spherical.di-4-tope",
+      "schlafli": "{p,2,2}",
+      "counts": {},
+      "dual": null,
+      "family": true,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular di-4-tope spherical tessellation."
+    },
+    {
+      "kind": "polytope",
+      "id": "hoso-4-tope-0",
+      "label": "hoso-4-tope {2,3,3}",
+      "rank": 4,
+      "dimension": 4,
+      "category": "spherical.hoso-4-tope",
+      "schlafli": "{2,3,3}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular hoso-4-tope spherical tessellation."
+    },
+    {
+      "kind": "polytope",
+      "id": "hoso-4-tope-1",
+      "label": "hoso-4-tope {2,4,3}",
+      "rank": 4,
+      "dimension": 4,
+      "category": "spherical.hoso-4-tope",
+      "schlafli": "{2,4,3}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular hoso-4-tope spherical tessellation."
+    },
+    {
+      "kind": "polytope",
+      "id": "hoso-4-tope-2",
+      "label": "hoso-4-tope {2,3,4}",
+      "rank": 4,
+      "dimension": 4,
+      "category": "spherical.hoso-4-tope",
+      "schlafli": "{2,3,4}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular hoso-4-tope spherical tessellation."
+    },
+    {
+      "kind": "polytope",
+      "id": "hoso-4-tope-3",
+      "label": "hoso-4-tope {2,3,5}",
+      "rank": 4,
+      "dimension": 4,
+      "category": "spherical.hoso-4-tope",
+      "schlafli": "{2,3,5}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular hoso-4-tope spherical tessellation."
+    },
+    {
+      "kind": "polytope",
+      "id": "hoso-4-tope-4",
+      "label": "hoso-4-tope {2,5,3}",
+      "rank": 4,
+      "dimension": 4,
+      "category": "spherical.hoso-4-tope",
+      "schlafli": "{2,5,3}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular hoso-4-tope spherical tessellation."
+    },
+    {
+      "kind": "polytope",
+      "id": "hoso-4-tope-5",
+      "label": "hoso-4-tope {2,2,p}",
+      "rank": 4,
+      "dimension": 4,
+      "category": "spherical.hoso-4-tope",
+      "schlafli": "{2,2,p}",
+      "counts": {},
+      "dual": null,
+      "family": true,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Regular hoso-4-tope spherical tessellation."
+    },
+    {
+      "kind": "polytope",
+      "id": "icosahedral-120-cell",
+      "label": "Icosahedral 120-cell / faceted 600-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.star",
+      "schlafli": "{3,5,5/2}",
+      "counts": {
+        "vertices": 120,
+        "edges": 720,
+        "faces": 1200,
+        "cells": 120
+      },
+      "dual": "small-stellated-120-cell",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "small-stellated-120-cell",
+      "label": "Small stellated 120-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.star",
+      "schlafli": "{5/2,5,3}",
+      "counts": {
+        "vertices": 120,
+        "edges": 1200,
+        "faces": 720,
+        "cells": 120
+      },
+      "dual": "icosahedral-120-cell",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "great-120-cell",
+      "label": "Great 120-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.star",
+      "schlafli": "{5,5/2,5}",
+      "counts": {
+        "vertices": 120,
+        "edges": 720,
+        "faces": 720,
+        "cells": 120
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "grand-120-cell",
+      "label": "Grand 120-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.star",
+      "schlafli": "{5,3,5/2}",
+      "counts": {
+        "vertices": 120,
+        "edges": 720,
+        "faces": 720,
+        "cells": 120
+      },
+      "dual": "great-stellated-120-cell",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "great-stellated-120-cell",
+      "label": "Great stellated 120-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.star",
+      "schlafli": "{5/2,3,5}",
+      "counts": {
+        "vertices": 120,
+        "edges": 720,
+        "faces": 720,
+        "cells": 120
+      },
+      "dual": "grand-120-cell",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "grand-stellated-120-cell",
+      "label": "Grand stellated 120-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.star",
+      "schlafli": "{5/2,5,5/2}",
+      "counts": {
+        "vertices": 120,
+        "edges": 720,
+        "faces": 720,
+        "cells": 120
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "great-grand-120-cell",
+      "label": "Great grand 120-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.star",
+      "schlafli": "{5,5/2,3}",
+      "counts": {
+        "vertices": 120,
+        "edges": 1200,
+        "faces": 720,
+        "cells": 120
+      },
+      "dual": "great-icosahedral-120-cell",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "great-icosahedral-120-cell",
+      "label": "Great icosahedral 120-cell / great faceted 600-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.star",
+      "schlafli": "{3,5/2,5}",
+      "counts": {
+        "vertices": 120,
+        "edges": 720,
+        "faces": 1200,
+        "cells": 120
+      },
+      "dual": "great-grand-120-cell",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "grand-600-cell",
+      "label": "Grand 600-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.star",
+      "schlafli": "{3,3,5/2}",
+      "counts": {
+        "vertices": 120,
+        "edges": 720,
+        "faces": 1200,
+        "cells": 600
+      },
+      "dual": "great-grand-stellated-120-cell",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "great-grand-stellated-120-cell",
+      "label": "Great grand stellated 120-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "finite.star",
+      "schlafli": "{5/2,3,3}",
+      "counts": {
+        "vertices": 600,
+        "edges": 1200,
+        "faces": 720,
+        "cells": 120
+      },
+      "dual": "grand-600-cell",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "5-simplex",
+      "label": "5-simplex",
+      "rank": 5,
+      "dimension": 5,
+      "category": "finite.convex",
+      "schlafli": "{3,3,3,3}",
+      "counts": {
+        "vertices": 6,
+        "edges": 15,
+        "faces": 20,
+        "facets": 6
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "5-cube",
+      "label": "5-cube",
+      "rank": 5,
+      "dimension": 5,
+      "category": "finite.convex",
+      "schlafli": "{4,3,3,3}",
+      "counts": {
+        "vertices": 32,
+        "edges": 80,
+        "faces": 80,
+        "facets": 10
+      },
+      "dual": "5-orthoplex",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "5-orthoplex",
+      "label": "5-orthoplex",
+      "rank": 5,
+      "dimension": 5,
+      "category": "finite.convex",
+      "schlafli": "{3,3,3,4}",
+      "counts": {
+        "vertices": 10,
+        "edges": 40,
+        "faces": 80,
+        "facets": 32
+      },
+      "dual": "5-cube",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "6-simplex",
+      "label": "6-simplex",
+      "rank": 6,
+      "dimension": 6,
+      "category": "finite.convex",
+      "schlafli": "{3,3,3,3,3}",
+      "counts": {
+        "vertices": 7,
+        "edges": 21,
+        "faces": 35,
+        "facets": 7
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "6-cube",
+      "label": "6-cube",
+      "rank": 6,
+      "dimension": 6,
+      "category": "finite.convex",
+      "schlafli": "{4,3,3,3,3}",
+      "counts": {
+        "vertices": 64,
+        "edges": 192,
+        "faces": 240,
+        "facets": 12
+      },
+      "dual": "6-orthoplex",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "6-orthoplex",
+      "label": "6-orthoplex",
+      "rank": 6,
+      "dimension": 6,
+      "category": "finite.convex",
+      "schlafli": "{3,3,3,3,4}",
+      "counts": {
+        "vertices": 12,
+        "edges": 60,
+        "faces": 160,
+        "facets": 64
+      },
+      "dual": "6-cube",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "7-simplex",
+      "label": "7-simplex",
+      "rank": 7,
+      "dimension": 7,
+      "category": "finite.convex",
+      "schlafli": "{3,3,3,3,3,3}",
+      "counts": {
+        "vertices": 8,
+        "edges": 28,
+        "faces": 56,
+        "facets": 8
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "7-cube",
+      "label": "7-cube",
+      "rank": 7,
+      "dimension": 7,
+      "category": "finite.convex",
+      "schlafli": "{4,3,3,3,3,3}",
+      "counts": {
+        "vertices": 128,
+        "edges": 448,
+        "faces": 672,
+        "facets": 14
+      },
+      "dual": "7-orthoplex",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "7-orthoplex",
+      "label": "7-orthoplex",
+      "rank": 7,
+      "dimension": 7,
+      "category": "finite.convex",
+      "schlafli": "{3,3,3,3,3,4}",
+      "counts": {
+        "vertices": 14,
+        "edges": 84,
+        "faces": 280,
+        "facets": 128
+      },
+      "dual": "7-cube",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "8-simplex",
+      "label": "8-simplex",
+      "rank": 8,
+      "dimension": 8,
+      "category": "finite.convex",
+      "schlafli": "{3,3,3,3,3,3,3}",
+      "counts": {
+        "vertices": 9,
+        "edges": 36,
+        "faces": 84,
+        "facets": 9
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "8-cube",
+      "label": "8-cube",
+      "rank": 8,
+      "dimension": 8,
+      "category": "finite.convex",
+      "schlafli": "{4,3,3,3,3,3,3}",
+      "counts": {
+        "vertices": 256,
+        "edges": 1024,
+        "faces": 1792,
+        "facets": 16
+      },
+      "dual": "8-orthoplex",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "8-orthoplex",
+      "label": "8-orthoplex",
+      "rank": 8,
+      "dimension": 8,
+      "category": "finite.convex",
+      "schlafli": "{3,3,3,3,3,3,4}",
+      "counts": {
+        "vertices": 16,
+        "edges": 112,
+        "faces": 448,
+        "facets": 256
+      },
+      "dual": "8-cube",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "9-simplex",
+      "label": "9-simplex",
+      "rank": 9,
+      "dimension": 9,
+      "category": "finite.convex",
+      "schlafli": "{3^8}",
+      "counts": {
+        "vertices": 10,
+        "edges": 45,
+        "faces": 120,
+        "facets": 10
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "9-cube",
+      "label": "9-cube",
+      "rank": 9,
+      "dimension": 9,
+      "category": "finite.convex",
+      "schlafli": "{4,3^7}",
+      "counts": {
+        "vertices": 512,
+        "edges": 2304,
+        "faces": 4608,
+        "facets": 18
+      },
+      "dual": "9-orthoplex",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "9-orthoplex",
+      "label": "9-orthoplex",
+      "rank": 9,
+      "dimension": 9,
+      "category": "finite.convex",
+      "schlafli": "{3^7,4}",
+      "counts": {
+        "vertices": 18,
+        "edges": 144,
+        "faces": 672,
+        "facets": 512
+      },
+      "dual": "9-cube",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "10-simplex",
+      "label": "10-simplex",
+      "rank": 10,
+      "dimension": 10,
+      "category": "finite.convex",
+      "schlafli": "{3^9}",
+      "counts": {
+        "vertices": 11,
+        "edges": 55,
+        "faces": 165,
+        "facets": 11
+      },
+      "dual": "self",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "10-cube",
+      "label": "10-cube",
+      "rank": 10,
+      "dimension": 10,
+      "category": "finite.convex",
+      "schlafli": "{4,3^8}",
+      "counts": {
+        "vertices": 1024,
+        "edges": 5120,
+        "faces": 11520,
+        "facets": 20
+      },
+      "dual": "10-orthoplex",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "10-orthoplex",
+      "label": "10-orthoplex",
+      "rank": 10,
+      "dimension": 10,
+      "category": "finite.convex",
+      "schlafli": "{3^8,4}",
+      "counts": {
+        "vertices": 20,
+        "edges": 180,
+        "faces": 960,
+        "facets": 1024
+      },
+      "dual": "10-cube",
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "n-simplex",
+      "label": "n-simplex",
+      "rank": null,
+      "dimension": "n",
+      "category": "family.convex",
+      "schlafli": "{3^(n-1)}",
+      "counts": {
+        "vertices": "n+1"
+      },
+      "dual": "self",
+      "family": true,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "One of the three convex regular families for n >= 5."
+    },
+    {
+      "kind": "polytope",
+      "id": "n-cube",
+      "label": "n-cube / hypercube",
+      "rank": null,
+      "dimension": "n",
+      "category": "family.convex",
+      "schlafli": "{4,3^(n-2)}",
+      "counts": {
+        "vertices": "2^n"
+      },
+      "dual": "n-orthoplex",
+      "family": true,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "One of the three convex regular families for n >= 5."
+    },
+    {
+      "kind": "polytope",
+      "id": "n-orthoplex",
+      "label": "n-orthoplex / cross-polytope",
+      "rank": null,
+      "dimension": "n",
+      "category": "family.convex",
+      "schlafli": "{3^(n-2),4}",
+      "counts": {
+        "vertices": "2n"
+      },
+      "dual": "n-cube",
+      "family": true,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "One of the three convex regular families for n >= 5."
+    },
+    {
+      "kind": "polytope",
+      "id": "hemi-cube",
+      "label": "Hemi-cube",
+      "rank": 3,
+      "dimension": 3,
+      "category": "projective.rank3",
+      "schlafli": "{4,3}/2",
+      "counts": {
+        "vertices": 4,
+        "edges": 6,
+        "faces": 3
+      },
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Euler characteristic 1."
+    },
+    {
+      "kind": "polytope",
+      "id": "hemi-octahedron",
+      "label": "Hemi-octahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "projective.rank3",
+      "schlafli": "{3,4}/2",
+      "counts": {
+        "vertices": 3,
+        "edges": 6,
+        "faces": 4
+      },
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Euler characteristic 1."
+    },
+    {
+      "kind": "polytope",
+      "id": "hemi-dodecahedron",
+      "label": "Hemi-dodecahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "projective.rank3",
+      "schlafli": "{5,3}/2",
+      "counts": {
+        "vertices": 10,
+        "edges": 15,
+        "faces": 6
+      },
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Euler characteristic 1."
+    },
+    {
+      "kind": "polytope",
+      "id": "hemi-icosahedron",
+      "label": "Hemi-icosahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "projective.rank3",
+      "schlafli": "{3,5}/2",
+      "counts": {
+        "vertices": 6,
+        "edges": 15,
+        "faces": 10
+      },
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Euler characteristic 1."
+    },
+    {
+      "kind": "polytope",
+      "id": "hemitesseract",
+      "label": "Hemitesseract",
+      "rank": 4,
+      "dimension": 4,
+      "category": "projective.rank4",
+      "schlafli": "{4,3,3}/2",
+      "counts": {
+        "vertices": 8,
+        "edges": 16,
+        "faces": 12
+      },
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Euler characteristic 0."
+    },
+    {
+      "kind": "polytope",
+      "id": "hemi-16-cell",
+      "label": "Hemi-16-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "projective.rank4",
+      "schlafli": "{3,3,4}/2",
+      "counts": {
+        "vertices": 4,
+        "edges": 12,
+        "faces": 16
+      },
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Euler characteristic 0."
+    },
+    {
+      "kind": "polytope",
+      "id": "hemi-24-cell",
+      "label": "Hemi-24-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "projective.rank4",
+      "schlafli": "{3,4,3}/2",
+      "counts": {
+        "vertices": 12,
+        "edges": 48,
+        "faces": 48
+      },
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Euler characteristic 0."
+    },
+    {
+      "kind": "polytope",
+      "id": "hemi-120-cell",
+      "label": "Hemi-120-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "projective.rank4",
+      "schlafli": "{5,3,3}/2",
+      "counts": {
+        "vertices": 300,
+        "edges": 600,
+        "faces": 360
+      },
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Euler characteristic 0."
+    },
+    {
+      "kind": "polytope",
+      "id": "hemi-600-cell",
+      "label": "Hemi-600-cell",
+      "rank": 4,
+      "dimension": 4,
+      "category": "projective.rank4",
+      "schlafli": "{3,3,5}/2",
+      "counts": {
+        "vertices": 60,
+        "edges": 360,
+        "faces": 600
+      },
+      "dual": null,
+      "family": false,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Euler characteristic 0."
+    },
+    {
+      "kind": "polytope",
+      "id": "hemi-n-cube",
+      "label": "hemi-n-cube",
+      "rank": null,
+      "dimension": "n",
+      "category": "family.projective",
+      "schlafli": "{4,3^(n-2)}/2",
+      "counts": {
+        "vertices": "2^(n-1)"
+      },
+      "dual": null,
+      "family": true,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Projective regular hypercube family."
+    },
+    {
+      "kind": "polytope",
+      "id": "hemi-n-orthoplex",
+      "label": "hemi-n-orthoplex",
+      "rank": null,
+      "dimension": "n",
+      "category": "family.projective",
+      "schlafli": "{3^(n-2),4}/2",
+      "counts": {
+        "vertices": "n"
+      },
+      "dual": null,
+      "family": true,
+      "finite": true,
+      "omiPlane": null,
+      "notes": "Projective regular orthoplex family."
+    },
+    {
+      "kind": "polytope",
+      "id": "apeirogon",
+      "label": "Apeirogon",
+      "rank": 2,
+      "dimension": 1,
+      "category": "infinite.apeirotope",
+      "schlafli": "{∞}",
+      "counts": {
+        "vertices": "∞",
+        "edges": "∞"
+      },
+      "dual": null,
+      "family": false,
+      "finite": false,
+      "omiPlane": null,
+      "notes": null
+    },
+    {
+      "kind": "polytope",
+      "id": "square-tiling",
+      "label": "Square tiling / quadrille",
+      "rank": 3,
+      "dimension": 2,
+      "category": "euclidean.tiling",
+      "schlafli": "{4,4}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": false,
+      "omiPlane": null,
+      "notes": "Regular Euclidean plane tiling."
+    },
+    {
+      "kind": "polytope",
+      "id": "triangular-tiling",
+      "label": "Triangular tiling / deltille",
+      "rank": 3,
+      "dimension": 2,
+      "category": "euclidean.tiling",
+      "schlafli": "{3,6}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": false,
+      "omiPlane": null,
+      "notes": "Regular Euclidean plane tiling."
+    },
+    {
+      "kind": "polytope",
+      "id": "hexagonal-tiling",
+      "label": "Hexagonal tiling / hextille",
+      "rank": 3,
+      "dimension": 2,
+      "category": "euclidean.tiling",
+      "schlafli": "{6,3}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": false,
+      "omiPlane": null,
+      "notes": "Regular Euclidean plane tiling."
+    },
+    {
+      "kind": "polytope",
+      "id": "hyperbolic-tiling-p-q",
+      "label": "Hyperbolic tiling",
+      "rank": 3,
+      "dimension": 2,
+      "category": "family.hyperbolic.tiling",
+      "schlafli": "{p,q}",
+      "counts": {},
+      "dual": null,
+      "family": true,
+      "finite": false,
+      "omiPlane": null,
+      "notes": "All positive integer pairs with 1/p + 1/q < 1/2."
+    },
+    {
+      "kind": "polytope",
+      "id": "hyperbolic-star-tiling-m",
+      "label": "Hyperbolic star tiling",
+      "rank": 3,
+      "dimension": 2,
+      "category": "family.hyperbolic.star-tiling",
+      "schlafli": "{m/2,m} and {m,m/2}",
+      "counts": {},
+      "dual": null,
+      "family": true,
+      "finite": false,
+      "omiPlane": null,
+      "notes": "m odd, m >= 7."
+    },
+    {
+      "kind": "polytope",
+      "id": "mucube",
+      "label": "Mucube",
+      "rank": 3,
+      "dimension": 3,
+      "category": "infinite.skew-apeirohedron",
+      "schlafli": "{4,6|4}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": false,
+      "omiPlane": null,
+      "notes": "Regular skew apeirohedron in Euclidean 3-space with planar faces."
+    },
+    {
+      "kind": "polytope",
+      "id": "muoctahedron",
+      "label": "Muoctahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "infinite.skew-apeirohedron",
+      "schlafli": "{6,4|4}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": false,
+      "omiPlane": null,
+      "notes": "Regular skew apeirohedron in Euclidean 3-space with planar faces."
+    },
+    {
+      "kind": "polytope",
+      "id": "mutetrahedron",
+      "label": "Mutetrahedron",
+      "rank": 3,
+      "dimension": 3,
+      "category": "infinite.skew-apeirohedron",
+      "schlafli": "{6,6|3}",
+      "counts": {},
+      "dual": null,
+      "family": false,
+      "finite": false,
+      "omiPlane": null,
+      "notes": "Regular skew apeirohedron in Euclidean 3-space with planar faces."
+    },
+    {
+      "kind": "polytope",
+      "id": "regular-skew-apeirohedra-e3",
+      "label": "Regular skew apeirohedra in Euclidean 3-space",
+      "rank": 3,
+      "dimension": 3,
+      "category": "family.infinite.skew-apeirohedron",
+      "schlafli": null,
+      "counts": {},
+      "dual": null,
+      "family": true,
+      "finite": false,
+      "omiPlane": null,
+      "notes": "30 regular apeirohedra in Euclidean 3-space including 18 pure and 12 blended."
+    },
+    {
+      "kind": "polytope",
+      "id": "regular-skew-apeirohedra-h3",
+      "label": "Regular skew apeirohedra in hyperbolic 3-space",
+      "rank": 3,
+      "dimension": 3,
+      "category": "family.infinite.hyperbolic.skew-apeirohedron",
+      "schlafli": null,
+      "counts": {},
+      "dual": null,
+      "family": true,
+      "finite": false,
+      "omiPlane": null,
+      "notes": "31 regular skew apeirohedra with convex faces in hyperbolic 3-space."
+    },
+    {
+      "kind": "configurationWitness",
+      "id": "miquel-configuration",
+      "label": "Miquel configuration",
+      "symbol": "(8_3 6_4)",
+      "counts": {
+        "points": 8,
+        "blocks": 6,
+        "pointDegree": 3,
+        "blockDegree": 4,
+        "flags": 24
+      },
+      "role": "Tetragrammatron interpreter-card frame",
+      "authority": "projection-metadata-only"
+    },
+    {
+      "kind": "configurationWitness",
+      "id": "mobius-configuration",
+      "label": "Möbius configuration / Möbius tetrads",
+      "symbol": "(8_4)",
+      "counts": {
+        "points": 8,
+        "blocks": 8,
+        "pointDegree": 4,
+        "blockDegree": 4,
+        "flags": 32
+      },
+      "role": "4y² atomic low-plane witness",
+      "authority": "projection-metadata-only"
+    },
+    {
+      "kind": "configurationWitness",
+      "id": "mobius-kantor-configuration",
+      "label": "Möbius–Kantor configuration",
+      "symbol": "(8_3 8_3)",
+      "counts": {
+        "points": 8,
+        "blocks": 8,
+        "pointDegree": 3,
+        "blockDegree": 3,
+        "flags": 24
+      },
+      "role": "16xy bridge-plane witness",
+      "authority": "projection-metadata-only"
+    },
+    {
+      "kind": "configurationWitness",
+      "id": "klein-configuration",
+      "label": "Klein configuration",
+      "symbol": "(60_15)",
+      "counts": {
+        "points": 60,
+        "blocks": 60,
+        "pointDegree": 15,
+        "blockDegree": 15,
+        "flags": 900
+      },
+      "role": "60x² cosmic high-plane witness",
+      "authority": "projection-metadata-only"
+    }
+  ]
+}

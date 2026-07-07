@@ -1,0 +1,1775 @@
+{
+  "nodes": [
+    {
+      "id": "toolbox-root",
+      "type": "text",
+      "x": 0,
+      "y": -320,
+      "width": 520,
+      "height": 260,
+      "text": "# OMI Polytope Toolbox\n\nData-only snap-to-grid templates for omi-canvas.\n\nRendering is projection; validation/receipt remains authority.\n\nUse: clone a card, drag into a canvas lane, then attach OMI relation metadata.",
+      "color": "5"
+    },
+    {
+      "id": "omi-configuration-witnesses",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 160,
+      "text": "# OMI Configuration Witnesses\nProjection metadata only.",
+      "color": "6"
+    },
+    {
+      "id": "witness-miquel-configuration",
+      "type": "text",
+      "x": 0,
+      "y": 200,
+      "width": 360,
+      "height": 220,
+      "text": "# Miquel configuration\nid: `miquel-configuration`\nsymbol: (8_3 6_4)\npoints/blocks: 8 / 6\ndegrees: 3 / 4\nflags: 24\nrole: Tetragrammatron interpreter-card frame\nauthority: projection-metadata-only",
+      "color": "6"
+    },
+    {
+      "id": "witness-mobius-configuration",
+      "type": "text",
+      "x": 0,
+      "y": 460,
+      "width": 360,
+      "height": 220,
+      "text": "# Möbius configuration / Möbius tetrads\nid: `mobius-configuration`\nsymbol: (8_4)\npoints/blocks: 8 / 8\ndegrees: 4 / 4\nflags: 32\nrole: 4y² atomic low-plane witness\nauthority: projection-metadata-only",
+      "color": "6"
+    },
+    {
+      "id": "witness-mobius-kantor-configuration",
+      "type": "text",
+      "x": 0,
+      "y": 720,
+      "width": 360,
+      "height": 220,
+      "text": "# Möbius–Kantor configuration\nid: `mobius-kantor-configuration`\nsymbol: (8_3 8_3)\npoints/blocks: 8 / 8\ndegrees: 3 / 3\nflags: 24\nrole: 16xy bridge-plane witness\nauthority: projection-metadata-only",
+      "color": "6"
+    },
+    {
+      "id": "witness-klein-configuration",
+      "type": "text",
+      "x": 0,
+      "y": 980,
+      "width": 360,
+      "height": 220,
+      "text": "# Klein configuration\nid: `klein-configuration`\nsymbol: (60_15)\npoints/blocks: 60 / 60\ndegrees: 15 / 15\nflags: 900\nrole: 60x² cosmic high-plane witness\nauthority: projection-metadata-only",
+      "color": "6"
+    },
+    {
+      "id": "dimension-1",
+      "type": "text",
+      "x": 420,
+      "y": 0,
+      "width": 360,
+      "height": 140,
+      "text": "# Dimension 1\n2 registry templates",
+      "color": "4"
+    },
+    {
+      "id": "polytope-dion",
+      "type": "text",
+      "x": 420,
+      "y": 180,
+      "width": 360,
+      "height": 230,
+      "text": "# Dion / line segment\nid: `dion`\nSchläfli: {}\nrank/dim: 1 / 1\ncategory: finite.convex\ncounts: V=2, E=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Unique rank-1 regular polytope.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-apeirogon",
+      "type": "text",
+      "x": 420,
+      "y": 440,
+      "width": 360,
+      "height": 230,
+      "text": "# Apeirogon\nid: `apeirogon`\nSchläfli: {∞}\nrank/dim: 2 / 1\ncategory: infinite.apeirotope\ncounts: V=∞, E=∞\ndual: \nfamily: False\nfinite: False\nomiPlane: \nnotes:",
+      "color": "5"
+    },
+    {
+      "id": "dimension-2",
+      "type": "text",
+      "x": 840,
+      "y": 0,
+      "width": 360,
+      "height": 140,
+      "text": "# Dimension 2\n72 registry templates",
+      "color": "4"
+    },
+    {
+      "id": "polytope-polygon-p",
+      "type": "text",
+      "x": 840,
+      "y": 180,
+      "width": 360,
+      "height": 230,
+      "text": "# p-gon\nid: `polygon-p`\nSchläfli: {p}\nrank/dim: 2 / 2\ncategory: family.convex\ncounts: V=p, E=p, F=1\ndual: self\nfamily: True\nfinite: True\nomiPlane: \nnotes: Infinite family of convex regular polygons where p >= 3.",
+      "color": "4"
+    },
+    {
+      "id": "polytope-star-polygon-n-m",
+      "type": "text",
+      "x": 840,
+      "y": 440,
+      "width": 360,
+      "height": 230,
+      "text": "# n/m star polygon\nid: `star-polygon-n-m`\nSchläfli: {n/m}\nrank/dim: 2 / 2\ncategory: family.star\ncounts: V=n, E=n, F=1\ndual: \nfamily: True\nfinite: True\nomiPlane: \nnotes: m < n/2, gcd(n,m)=1. Infinite family.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-polygon-10",
+      "type": "text",
+      "x": 840,
+      "y": 700,
+      "width": 360,
+      "height": 230,
+      "text": "# Decagon\nid: `polygon-10`\nSchläfli: {10}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=10, E=10, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-11",
+      "type": "text",
+      "x": 840,
+      "y": 960,
+      "width": 360,
+      "height": 230,
+      "text": "# Hendecagon\nid: `polygon-11`\nSchläfli: {11}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=11, E=11, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-12",
+      "type": "text",
+      "x": 840,
+      "y": 1220,
+      "width": 360,
+      "height": 230,
+      "text": "# Dodecagon\nid: `polygon-12`\nSchläfli: {12}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=12, E=12, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-13",
+      "type": "text",
+      "x": 840,
+      "y": 1480,
+      "width": 360,
+      "height": 230,
+      "text": "# Tridecagon\nid: `polygon-13`\nSchläfli: {13}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=13, E=13, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-14",
+      "type": "text",
+      "x": 840,
+      "y": 1740,
+      "width": 360,
+      "height": 230,
+      "text": "# Tetradecagon\nid: `polygon-14`\nSchläfli: {14}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=14, E=14, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-15",
+      "type": "text",
+      "x": 840,
+      "y": 2000,
+      "width": 360,
+      "height": 230,
+      "text": "# Pentadecagon\nid: `polygon-15`\nSchläfli: {15}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=15, E=15, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-16",
+      "type": "text",
+      "x": 840,
+      "y": 2260,
+      "width": 360,
+      "height": 230,
+      "text": "# Hexadecagon\nid: `polygon-16`\nSchläfli: {16}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=16, E=16, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-17",
+      "type": "text",
+      "x": 840,
+      "y": 2520,
+      "width": 360,
+      "height": 230,
+      "text": "# Heptadecagon\nid: `polygon-17`\nSchläfli: {17}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=17, E=17, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-18",
+      "type": "text",
+      "x": 840,
+      "y": 2780,
+      "width": 360,
+      "height": 230,
+      "text": "# Octadecagon\nid: `polygon-18`\nSchläfli: {18}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=18, E=18, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-19",
+      "type": "text",
+      "x": 840,
+      "y": 3040,
+      "width": 360,
+      "height": 230,
+      "text": "# Enneadecagon\nid: `polygon-19`\nSchläfli: {19}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=19, E=19, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-20",
+      "type": "text",
+      "x": 840,
+      "y": 3300,
+      "width": 360,
+      "height": 230,
+      "text": "# Icosagon\nid: `polygon-20`\nSchläfli: {20}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=20, E=20, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-3",
+      "type": "text",
+      "x": 840,
+      "y": 3560,
+      "width": 360,
+      "height": 230,
+      "text": "# Triangle\nid: `polygon-3`\nSchläfli: {3}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=3, E=3, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-4",
+      "type": "text",
+      "x": 840,
+      "y": 3820,
+      "width": 360,
+      "height": 230,
+      "text": "# Square\nid: `polygon-4`\nSchläfli: {4}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=4, E=4, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-5",
+      "type": "text",
+      "x": 840,
+      "y": 4080,
+      "width": 360,
+      "height": 230,
+      "text": "# Pentagon\nid: `polygon-5`\nSchläfli: {5}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=5, E=5, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-6",
+      "type": "text",
+      "x": 840,
+      "y": 4340,
+      "width": 360,
+      "height": 230,
+      "text": "# Hexagon\nid: `polygon-6`\nSchläfli: {6}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=6, E=6, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-7",
+      "type": "text",
+      "x": 840,
+      "y": 4600,
+      "width": 360,
+      "height": 230,
+      "text": "# Heptagon\nid: `polygon-7`\nSchläfli: {7}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=7, E=7, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-8",
+      "type": "text",
+      "x": 840,
+      "y": 4860,
+      "width": 360,
+      "height": 230,
+      "text": "# Octagon\nid: `polygon-8`\nSchläfli: {8}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=8, E=8, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-9",
+      "type": "text",
+      "x": 840,
+      "y": 5120,
+      "width": 360,
+      "height": 230,
+      "text": "# Nonagon / Enneagon\nid: `polygon-9`\nSchläfli: {9}\nrank/dim: 2 / 2\ncategory: finite.convex\ncounts: V=9, E=9, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-star-polygon-10-3",
+      "type": "text",
+      "x": 840,
+      "y": 5380,
+      "width": 360,
+      "height": 230,
+      "text": "# 10/3-gram\nid: `star-polygon-10-3`\nSchläfli: {10/3}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=10, E=10, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-11-2",
+      "type": "text",
+      "x": 840,
+      "y": 5640,
+      "width": 360,
+      "height": 230,
+      "text": "# 11/2-gram\nid: `star-polygon-11-2`\nSchläfli: {11/2}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=11, E=11, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-11-3",
+      "type": "text",
+      "x": 840,
+      "y": 5900,
+      "width": 360,
+      "height": 230,
+      "text": "# 11/3-gram\nid: `star-polygon-11-3`\nSchläfli: {11/3}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=11, E=11, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-11-4",
+      "type": "text",
+      "x": 840,
+      "y": 6160,
+      "width": 360,
+      "height": 230,
+      "text": "# 11/4-gram\nid: `star-polygon-11-4`\nSchläfli: {11/4}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=11, E=11, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-11-5",
+      "type": "text",
+      "x": 840,
+      "y": 6420,
+      "width": 360,
+      "height": 230,
+      "text": "# 11/5-gram\nid: `star-polygon-11-5`\nSchläfli: {11/5}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=11, E=11, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-12-5",
+      "type": "text",
+      "x": 840,
+      "y": 6680,
+      "width": 360,
+      "height": 230,
+      "text": "# 12/5-gram\nid: `star-polygon-12-5`\nSchläfli: {12/5}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=12, E=12, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-13-2",
+      "type": "text",
+      "x": 840,
+      "y": 6940,
+      "width": 360,
+      "height": 230,
+      "text": "# 13/2-gram\nid: `star-polygon-13-2`\nSchläfli: {13/2}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=13, E=13, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-13-3",
+      "type": "text",
+      "x": 840,
+      "y": 7200,
+      "width": 360,
+      "height": 230,
+      "text": "# 13/3-gram\nid: `star-polygon-13-3`\nSchläfli: {13/3}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=13, E=13, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-13-4",
+      "type": "text",
+      "x": 840,
+      "y": 7460,
+      "width": 360,
+      "height": 230,
+      "text": "# 13/4-gram\nid: `star-polygon-13-4`\nSchläfli: {13/4}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=13, E=13, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-13-5",
+      "type": "text",
+      "x": 840,
+      "y": 7720,
+      "width": 360,
+      "height": 230,
+      "text": "# 13/5-gram\nid: `star-polygon-13-5`\nSchläfli: {13/5}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=13, E=13, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-13-6",
+      "type": "text",
+      "x": 840,
+      "y": 7980,
+      "width": 360,
+      "height": 230,
+      "text": "# 13/6-gram\nid: `star-polygon-13-6`\nSchläfli: {13/6}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=13, E=13, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-14-3",
+      "type": "text",
+      "x": 840,
+      "y": 8240,
+      "width": 360,
+      "height": 230,
+      "text": "# 14/3-gram\nid: `star-polygon-14-3`\nSchläfli: {14/3}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=14, E=14, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-14-5",
+      "type": "text",
+      "x": 840,
+      "y": 8500,
+      "width": 360,
+      "height": 230,
+      "text": "# 14/5-gram\nid: `star-polygon-14-5`\nSchläfli: {14/5}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=14, E=14, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-15-2",
+      "type": "text",
+      "x": 840,
+      "y": 8760,
+      "width": 360,
+      "height": 230,
+      "text": "# 15/2-gram\nid: `star-polygon-15-2`\nSchläfli: {15/2}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=15, E=15, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-15-4",
+      "type": "text",
+      "x": 840,
+      "y": 9020,
+      "width": 360,
+      "height": 230,
+      "text": "# 15/4-gram\nid: `star-polygon-15-4`\nSchläfli: {15/4}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=15, E=15, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-15-7",
+      "type": "text",
+      "x": 840,
+      "y": 9280,
+      "width": 360,
+      "height": 230,
+      "text": "# 15/7-gram\nid: `star-polygon-15-7`\nSchläfli: {15/7}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=15, E=15, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-16-3",
+      "type": "text",
+      "x": 840,
+      "y": 9540,
+      "width": 360,
+      "height": 230,
+      "text": "# 16/3-gram\nid: `star-polygon-16-3`\nSchläfli: {16/3}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=16, E=16, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-16-5",
+      "type": "text",
+      "x": 840,
+      "y": 9800,
+      "width": 360,
+      "height": 230,
+      "text": "# 16/5-gram\nid: `star-polygon-16-5`\nSchläfli: {16/5}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=16, E=16, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-16-7",
+      "type": "text",
+      "x": 840,
+      "y": 10060,
+      "width": 360,
+      "height": 230,
+      "text": "# 16/7-gram\nid: `star-polygon-16-7`\nSchläfli: {16/7}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=16, E=16, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-17-2",
+      "type": "text",
+      "x": 840,
+      "y": 10320,
+      "width": 360,
+      "height": 230,
+      "text": "# 17/2-gram\nid: `star-polygon-17-2`\nSchläfli: {17/2}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=17, E=17, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-17-3",
+      "type": "text",
+      "x": 840,
+      "y": 10580,
+      "width": 360,
+      "height": 230,
+      "text": "# 17/3-gram\nid: `star-polygon-17-3`\nSchläfli: {17/3}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=17, E=17, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-17-4",
+      "type": "text",
+      "x": 840,
+      "y": 10840,
+      "width": 360,
+      "height": 230,
+      "text": "# 17/4-gram\nid: `star-polygon-17-4`\nSchläfli: {17/4}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=17, E=17, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-17-5",
+      "type": "text",
+      "x": 840,
+      "y": 11100,
+      "width": 360,
+      "height": 230,
+      "text": "# 17/5-gram\nid: `star-polygon-17-5`\nSchläfli: {17/5}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=17, E=17, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-17-6",
+      "type": "text",
+      "x": 840,
+      "y": 11360,
+      "width": 360,
+      "height": 230,
+      "text": "# 17/6-gram\nid: `star-polygon-17-6`\nSchläfli: {17/6}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=17, E=17, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-17-7",
+      "type": "text",
+      "x": 840,
+      "y": 11620,
+      "width": 360,
+      "height": 230,
+      "text": "# 17/7-gram\nid: `star-polygon-17-7`\nSchläfli: {17/7}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=17, E=17, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-17-8",
+      "type": "text",
+      "x": 840,
+      "y": 11880,
+      "width": 360,
+      "height": 230,
+      "text": "# 17/8-gram\nid: `star-polygon-17-8`\nSchläfli: {17/8}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=17, E=17, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-18-5",
+      "type": "text",
+      "x": 840,
+      "y": 12140,
+      "width": 360,
+      "height": 230,
+      "text": "# 18/5-gram\nid: `star-polygon-18-5`\nSchläfli: {18/5}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=18, E=18, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-18-7",
+      "type": "text",
+      "x": 840,
+      "y": 12400,
+      "width": 360,
+      "height": 230,
+      "text": "# 18/7-gram\nid: `star-polygon-18-7`\nSchläfli: {18/7}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=18, E=18, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-19-2",
+      "type": "text",
+      "x": 840,
+      "y": 12660,
+      "width": 360,
+      "height": 230,
+      "text": "# 19/2-gram\nid: `star-polygon-19-2`\nSchläfli: {19/2}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=19, E=19, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-19-3",
+      "type": "text",
+      "x": 840,
+      "y": 12920,
+      "width": 360,
+      "height": 230,
+      "text": "# 19/3-gram\nid: `star-polygon-19-3`\nSchläfli: {19/3}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=19, E=19, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-19-4",
+      "type": "text",
+      "x": 840,
+      "y": 13180,
+      "width": 360,
+      "height": 230,
+      "text": "# 19/4-gram\nid: `star-polygon-19-4`\nSchläfli: {19/4}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=19, E=19, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-19-5",
+      "type": "text",
+      "x": 840,
+      "y": 13440,
+      "width": 360,
+      "height": 230,
+      "text": "# 19/5-gram\nid: `star-polygon-19-5`\nSchläfli: {19/5}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=19, E=19, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-19-6",
+      "type": "text",
+      "x": 840,
+      "y": 13700,
+      "width": 360,
+      "height": 230,
+      "text": "# 19/6-gram\nid: `star-polygon-19-6`\nSchläfli: {19/6}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=19, E=19, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-19-7",
+      "type": "text",
+      "x": 840,
+      "y": 13960,
+      "width": 360,
+      "height": 230,
+      "text": "# 19/7-gram\nid: `star-polygon-19-7`\nSchläfli: {19/7}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=19, E=19, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-19-8",
+      "type": "text",
+      "x": 840,
+      "y": 14220,
+      "width": 360,
+      "height": 230,
+      "text": "# 19/8-gram\nid: `star-polygon-19-8`\nSchläfli: {19/8}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=19, E=19, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-19-9",
+      "type": "text",
+      "x": 840,
+      "y": 14480,
+      "width": 360,
+      "height": 230,
+      "text": "# 19/9-gram\nid: `star-polygon-19-9`\nSchläfli: {19/9}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=19, E=19, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-20-3",
+      "type": "text",
+      "x": 840,
+      "y": 14740,
+      "width": 360,
+      "height": 230,
+      "text": "# 20/3-gram\nid: `star-polygon-20-3`\nSchläfli: {20/3}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=20, E=20, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-20-7",
+      "type": "text",
+      "x": 840,
+      "y": 15000,
+      "width": 360,
+      "height": 230,
+      "text": "# 20/7-gram\nid: `star-polygon-20-7`\nSchläfli: {20/7}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=20, E=20, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-20-9",
+      "type": "text",
+      "x": 840,
+      "y": 15260,
+      "width": 360,
+      "height": 230,
+      "text": "# 20/9-gram\nid: `star-polygon-20-9`\nSchläfli: {20/9}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=20, E=20, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-5-2",
+      "type": "text",
+      "x": 840,
+      "y": 15520,
+      "width": 360,
+      "height": 230,
+      "text": "# 5/2-gram\nid: `star-polygon-5-2`\nSchläfli: {5/2}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=5, E=5, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-7-2",
+      "type": "text",
+      "x": 840,
+      "y": 15780,
+      "width": 360,
+      "height": 230,
+      "text": "# 7/2-gram\nid: `star-polygon-7-2`\nSchläfli: {7/2}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=7, E=7, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-7-3",
+      "type": "text",
+      "x": 840,
+      "y": 16040,
+      "width": 360,
+      "height": 230,
+      "text": "# 7/3-gram\nid: `star-polygon-7-3`\nSchläfli: {7/3}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=7, E=7, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-8-3",
+      "type": "text",
+      "x": 840,
+      "y": 16300,
+      "width": 360,
+      "height": 230,
+      "text": "# 8/3-gram\nid: `star-polygon-8-3`\nSchläfli: {8/3}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=8, E=8, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-9-2",
+      "type": "text",
+      "x": 840,
+      "y": 16560,
+      "width": 360,
+      "height": 230,
+      "text": "# 9/2-gram\nid: `star-polygon-9-2`\nSchläfli: {9/2}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=9, E=9, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-star-polygon-9-4",
+      "type": "text",
+      "x": 840,
+      "y": 16820,
+      "width": 360,
+      "height": 230,
+      "text": "# 9/4-gram\nid: `star-polygon-9-4`\nSchläfli: {9/4}\nrank/dim: 2 / 2\ncategory: finite.star\ncounts: V=9, E=9, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular star polygon.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-polygon-1",
+      "type": "text",
+      "x": 840,
+      "y": 17080,
+      "width": 360,
+      "height": 230,
+      "text": "# Monogon\nid: `polygon-1`\nSchläfli: {1}\nrank/dim: 2 / 2\ncategory: spherical.degenerate\ncounts: V=1, E=1, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-polygon-2",
+      "type": "text",
+      "x": 840,
+      "y": 17340,
+      "width": 360,
+      "height": 230,
+      "text": "# Digon\nid: `polygon-2`\nSchläfli: {2}\nrank/dim: 2 / 2\ncategory: spherical.degenerate\ncounts: V=2, E=2, F=1\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular polygon carrier.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-hexagonal-tiling",
+      "type": "text",
+      "x": 840,
+      "y": 17600,
+      "width": 360,
+      "height": 230,
+      "text": "# Hexagonal tiling / hextille\nid: `hexagonal-tiling`\nSchläfli: {6,3}\nrank/dim: 3 / 2\ncategory: euclidean.tiling\ncounts: \ndual: \nfamily: False\nfinite: False\nomiPlane: \nnotes: Regular Euclidean plane tiling.",
+      "color": "5"
+    },
+    {
+      "id": "polytope-square-tiling",
+      "type": "text",
+      "x": 840,
+      "y": 17860,
+      "width": 360,
+      "height": 230,
+      "text": "# Square tiling / quadrille\nid: `square-tiling`\nSchläfli: {4,4}\nrank/dim: 3 / 2\ncategory: euclidean.tiling\ncounts: \ndual: \nfamily: False\nfinite: False\nomiPlane: \nnotes: Regular Euclidean plane tiling.",
+      "color": "5"
+    },
+    {
+      "id": "polytope-triangular-tiling",
+      "type": "text",
+      "x": 840,
+      "y": 18120,
+      "width": 360,
+      "height": 230,
+      "text": "# Triangular tiling / deltille\nid: `triangular-tiling`\nSchläfli: {3,6}\nrank/dim: 3 / 2\ncategory: euclidean.tiling\ncounts: \ndual: \nfamily: False\nfinite: False\nomiPlane: \nnotes: Regular Euclidean plane tiling.",
+      "color": "5"
+    },
+    {
+      "id": "polytope-hyperbolic-star-tiling-m",
+      "type": "text",
+      "x": 840,
+      "y": 18380,
+      "width": 360,
+      "height": 230,
+      "text": "# Hyperbolic star tiling\nid: `hyperbolic-star-tiling-m`\nSchläfli: {m/2,m} and {m,m/2}\nrank/dim: 3 / 2\ncategory: family.hyperbolic.star-tiling\ncounts: \ndual: \nfamily: True\nfinite: False\nomiPlane: \nnotes: m odd, m >= 7.",
+      "color": "2"
+    },
+    {
+      "id": "polytope-hyperbolic-tiling-p-q",
+      "type": "text",
+      "x": 840,
+      "y": 18640,
+      "width": 360,
+      "height": 230,
+      "text": "# Hyperbolic tiling\nid: `hyperbolic-tiling-p-q`\nSchläfli: {p,q}\nrank/dim: 3 / 2\ncategory: family.hyperbolic.tiling\ncounts: \ndual: \nfamily: True\nfinite: False\nomiPlane: \nnotes: All positive integer pairs with 1/p + 1/q < 1/2.",
+      "color": "4"
+    },
+    {
+      "id": "dimension-3",
+      "type": "text",
+      "x": 1260,
+      "y": 0,
+      "width": 360,
+      "height": 140,
+      "text": "# Dimension 3\n30 registry templates",
+      "color": "4"
+    },
+    {
+      "id": "polytope-regular-skew-apeirohedra-h3",
+      "type": "text",
+      "x": 1260,
+      "y": 180,
+      "width": 360,
+      "height": 230,
+      "text": "# Regular skew apeirohedra in hyperbolic 3-space\nid: `regular-skew-apeirohedra-h3`\nSchläfli: \nrank/dim: 3 / 3\ncategory: family.infinite.hyperbolic.skew-apeirohedron\ncounts: \ndual: \nfamily: True\nfinite: False\nomiPlane: \nnotes: 31 regular skew apeirohedra with convex faces in hyperbolic 3-space.",
+      "color": "4"
+    },
+    {
+      "id": "polytope-regular-skew-apeirohedra-e3",
+      "type": "text",
+      "x": 1260,
+      "y": 440,
+      "width": 360,
+      "height": 230,
+      "text": "# Regular skew apeirohedra in Euclidean 3-space\nid: `regular-skew-apeirohedra-e3`\nSchläfli: \nrank/dim: 3 / 3\ncategory: family.infinite.skew-apeirohedron\ncounts: \ndual: \nfamily: True\nfinite: False\nomiPlane: \nnotes: 30 regular apeirohedra in Euclidean 3-space including 18 pure and 12 blended.",
+      "color": "4"
+    },
+    {
+      "id": "polytope-p-gonal-dihedron",
+      "type": "text",
+      "x": 1260,
+      "y": 700,
+      "width": 360,
+      "height": 230,
+      "text": "# p-gonal dihedron\nid: `p-gonal-dihedron`\nSchläfli: {p,2}\nrank/dim: 3 / 3\ncategory: family.spherical.dihedron\ncounts: V=p, E=p, F=2\ndual: p-gonal-hosohedron\nfamily: True\nfinite: True\nomiPlane: \nnotes:",
+      "color": "4"
+    },
+    {
+      "id": "polytope-p-gonal-hosohedron",
+      "type": "text",
+      "x": 1260,
+      "y": 960,
+      "width": 360,
+      "height": 230,
+      "text": "# p-gonal hosohedron\nid: `p-gonal-hosohedron`\nSchläfli: {2,p}\nrank/dim: 3 / 3\ncategory: family.spherical.hosohedron\ncounts: V=2, E=p, F=p\ndual: p-gonal-dihedron\nfamily: True\nfinite: True\nomiPlane: \nnotes:",
+      "color": "4"
+    },
+    {
+      "id": "polytope-cube",
+      "type": "text",
+      "x": 1260,
+      "y": 1220,
+      "width": 360,
+      "height": 230,
+      "text": "# Cube / Hexahedron\nid: `cube`\nSchläfli: {4,3}\nrank/dim: 3 / 3\ncategory: finite.convex\ncounts: V=8, E=12, F=6\ndual: octahedron\nfamily: False\nfinite: True\nomiPlane: 4y²/Platonic low-plane\nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-dodecahedron",
+      "type": "text",
+      "x": 1260,
+      "y": 1480,
+      "width": 360,
+      "height": 230,
+      "text": "# Dodecahedron\nid: `dodecahedron`\nSchläfli: {5,3}\nrank/dim: 3 / 3\ncategory: finite.convex\ncounts: V=20, E=30, F=12\ndual: icosahedron\nfamily: False\nfinite: True\nomiPlane: 4y²/Platonic low-plane\nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-icosahedron",
+      "type": "text",
+      "x": 1260,
+      "y": 1740,
+      "width": 360,
+      "height": 230,
+      "text": "# Icosahedron\nid: `icosahedron`\nSchläfli: {3,5}\nrank/dim: 3 / 3\ncategory: finite.convex\ncounts: V=12, E=30, F=20\ndual: dodecahedron\nfamily: False\nfinite: True\nomiPlane: 4y²/Platonic low-plane\nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-octahedron",
+      "type": "text",
+      "x": 1260,
+      "y": 2000,
+      "width": 360,
+      "height": 230,
+      "text": "# Octahedron\nid: `octahedron`\nSchläfli: {3,4}\nrank/dim: 3 / 3\ncategory: finite.convex\ncounts: V=6, E=12, F=8\ndual: cube\nfamily: False\nfinite: True\nomiPlane: 4y²/Platonic low-plane\nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-tetrahedron",
+      "type": "text",
+      "x": 1260,
+      "y": 2260,
+      "width": 360,
+      "height": 230,
+      "text": "# Tetrahedron\nid: `tetrahedron`\nSchläfli: {3,3}\nrank/dim: 3 / 3\ncategory: finite.convex\ncounts: V=4, E=6, F=4\ndual: self\nfamily: False\nfinite: True\nomiPlane: 4y²/Platonic low-plane\nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-great-dodecahedron",
+      "type": "text",
+      "x": 1260,
+      "y": 2520,
+      "width": 360,
+      "height": 230,
+      "text": "# Great dodecahedron\nid: `great-dodecahedron`\nSchläfli: {5,5/2}\nrank/dim: 3 / 3\ncategory: finite.star\ncounts: V=12, E=30, F=12\ndual: small-stellated-dodecahedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-great-icosahedron",
+      "type": "text",
+      "x": 1260,
+      "y": 2780,
+      "width": 360,
+      "height": 230,
+      "text": "# Great icosahedron\nid: `great-icosahedron`\nSchläfli: {3,5/2}\nrank/dim: 3 / 3\ncategory: finite.star\ncounts: V=12, E=30, F=20\ndual: great-stellated-dodecahedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-great-stellated-dodecahedron",
+      "type": "text",
+      "x": 1260,
+      "y": 3040,
+      "width": 360,
+      "height": 230,
+      "text": "# Great stellated dodecahedron\nid: `great-stellated-dodecahedron`\nSchläfli: {5/2,3}\nrank/dim: 3 / 3\ncategory: finite.star\ncounts: V=20, E=30, F=12\ndual: great-icosahedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-small-stellated-dodecahedron",
+      "type": "text",
+      "x": 1260,
+      "y": 3300,
+      "width": 360,
+      "height": 230,
+      "text": "# Small stellated dodecahedron\nid: `small-stellated-dodecahedron`\nSchläfli: {5/2,5}\nrank/dim: 3 / 3\ncategory: finite.star\ncounts: V=12, E=30, F=12\ndual: great-dodecahedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-mucube",
+      "type": "text",
+      "x": 1260,
+      "y": 3560,
+      "width": 360,
+      "height": 230,
+      "text": "# Mucube\nid: `mucube`\nSchläfli: {4,6|4}\nrank/dim: 3 / 3\ncategory: infinite.skew-apeirohedron\ncounts: \ndual: \nfamily: False\nfinite: False\nomiPlane: \nnotes: Regular skew apeirohedron in Euclidean 3-space with planar faces.",
+      "color": "5"
+    },
+    {
+      "id": "polytope-muoctahedron",
+      "type": "text",
+      "x": 1260,
+      "y": 3820,
+      "width": 360,
+      "height": 230,
+      "text": "# Muoctahedron\nid: `muoctahedron`\nSchläfli: {6,4|4}\nrank/dim: 3 / 3\ncategory: infinite.skew-apeirohedron\ncounts: \ndual: \nfamily: False\nfinite: False\nomiPlane: \nnotes: Regular skew apeirohedron in Euclidean 3-space with planar faces.",
+      "color": "5"
+    },
+    {
+      "id": "polytope-mutetrahedron",
+      "type": "text",
+      "x": 1260,
+      "y": 4080,
+      "width": 360,
+      "height": 230,
+      "text": "# Mutetrahedron\nid: `mutetrahedron`\nSchläfli: {6,6|3}\nrank/dim: 3 / 3\ncategory: infinite.skew-apeirohedron\ncounts: \ndual: \nfamily: False\nfinite: False\nomiPlane: \nnotes: Regular skew apeirohedron in Euclidean 3-space with planar faces.",
+      "color": "5"
+    },
+    {
+      "id": "polytope-hemi-cube",
+      "type": "text",
+      "x": 1260,
+      "y": 4340,
+      "width": 360,
+      "height": 230,
+      "text": "# Hemi-cube\nid: `hemi-cube`\nSchläfli: {4,3}/2\nrank/dim: 3 / 3\ncategory: projective.rank3\ncounts: V=4, E=6, F=3\ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Euler characteristic 1.",
+      "color": "3"
+    },
+    {
+      "id": "polytope-hemi-dodecahedron",
+      "type": "text",
+      "x": 1260,
+      "y": 4600,
+      "width": 360,
+      "height": 230,
+      "text": "# Hemi-dodecahedron\nid: `hemi-dodecahedron`\nSchläfli: {5,3}/2\nrank/dim: 3 / 3\ncategory: projective.rank3\ncounts: V=10, E=15, F=6\ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Euler characteristic 1.",
+      "color": "3"
+    },
+    {
+      "id": "polytope-hemi-icosahedron",
+      "type": "text",
+      "x": 1260,
+      "y": 4860,
+      "width": 360,
+      "height": 230,
+      "text": "# Hemi-icosahedron\nid: `hemi-icosahedron`\nSchläfli: {3,5}/2\nrank/dim: 3 / 3\ncategory: projective.rank3\ncounts: V=6, E=15, F=10\ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Euler characteristic 1.",
+      "color": "3"
+    },
+    {
+      "id": "polytope-hemi-octahedron",
+      "type": "text",
+      "x": 1260,
+      "y": 5120,
+      "width": 360,
+      "height": 230,
+      "text": "# Hemi-octahedron\nid: `hemi-octahedron`\nSchläfli: {3,4}/2\nrank/dim: 3 / 3\ncategory: projective.rank3\ncounts: V=3, E=6, F=4\ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Euler characteristic 1.",
+      "color": "3"
+    },
+    {
+      "id": "polytope-2-gonal-dihedron",
+      "type": "text",
+      "x": 1260,
+      "y": 5380,
+      "width": 360,
+      "height": 230,
+      "text": "# Digon dihedron\nid: `2-gonal-dihedron`\nSchläfli: {2,2}\nrank/dim: 3 / 3\ncategory: spherical.dihedron\ncounts: V=2, E=2, F=2\ndual: 2-gonal-hosohedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-3-gonal-dihedron",
+      "type": "text",
+      "x": 1260,
+      "y": 5640,
+      "width": 360,
+      "height": 230,
+      "text": "# Triangle dihedron\nid: `3-gonal-dihedron`\nSchläfli: {3,2}\nrank/dim: 3 / 3\ncategory: spherical.dihedron\ncounts: V=3, E=3, F=2\ndual: 3-gonal-hosohedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-4-gonal-dihedron",
+      "type": "text",
+      "x": 1260,
+      "y": 5900,
+      "width": 360,
+      "height": 230,
+      "text": "# Square dihedron\nid: `4-gonal-dihedron`\nSchläfli: {4,2}\nrank/dim: 3 / 3\ncategory: spherical.dihedron\ncounts: V=4, E=4, F=2\ndual: 4-gonal-hosohedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-5-gonal-dihedron",
+      "type": "text",
+      "x": 1260,
+      "y": 6160,
+      "width": 360,
+      "height": 230,
+      "text": "# Pentagon dihedron\nid: `5-gonal-dihedron`\nSchläfli: {5,2}\nrank/dim: 3 / 3\ncategory: spherical.dihedron\ncounts: V=5, E=5, F=2\ndual: 5-gonal-hosohedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-6-gonal-dihedron",
+      "type": "text",
+      "x": 1260,
+      "y": 6420,
+      "width": 360,
+      "height": 230,
+      "text": "# Hexagon dihedron\nid: `6-gonal-dihedron`\nSchläfli: {6,2}\nrank/dim: 3 / 3\ncategory: spherical.dihedron\ncounts: V=6, E=6, F=2\ndual: 6-gonal-hosohedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-2-gonal-hosohedron",
+      "type": "text",
+      "x": 1260,
+      "y": 6680,
+      "width": 360,
+      "height": 230,
+      "text": "# Digon hosohedron\nid: `2-gonal-hosohedron`\nSchläfli: {2,2}\nrank/dim: 3 / 3\ncategory: spherical.hosohedron\ncounts: V=2, E=2, F=2\ndual: 2-gonal-dihedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-3-gonal-hosohedron",
+      "type": "text",
+      "x": 1260,
+      "y": 6940,
+      "width": 360,
+      "height": 230,
+      "text": "# Triangle hosohedron\nid: `3-gonal-hosohedron`\nSchläfli: {2,3}\nrank/dim: 3 / 3\ncategory: spherical.hosohedron\ncounts: V=2, E=3, F=3\ndual: 3-gonal-dihedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-4-gonal-hosohedron",
+      "type": "text",
+      "x": 1260,
+      "y": 7200,
+      "width": 360,
+      "height": 230,
+      "text": "# Square hosohedron\nid: `4-gonal-hosohedron`\nSchläfli: {2,4}\nrank/dim: 3 / 3\ncategory: spherical.hosohedron\ncounts: V=2, E=4, F=4\ndual: 4-gonal-dihedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-5-gonal-hosohedron",
+      "type": "text",
+      "x": 1260,
+      "y": 7460,
+      "width": 360,
+      "height": 230,
+      "text": "# Pentagon hosohedron\nid: `5-gonal-hosohedron`\nSchläfli: {2,5}\nrank/dim: 3 / 3\ncategory: spherical.hosohedron\ncounts: V=2, E=5, F=5\ndual: 5-gonal-dihedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-6-gonal-hosohedron",
+      "type": "text",
+      "x": 1260,
+      "y": 7720,
+      "width": 360,
+      "height": 230,
+      "text": "# Hexagon hosohedron\nid: `6-gonal-hosohedron`\nSchläfli: {2,6}\nrank/dim: 3 / 3\ncategory: spherical.hosohedron\ncounts: V=2, E=6, F=6\ndual: 6-gonal-dihedron\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "dimension-4",
+      "type": "text",
+      "x": 1680,
+      "y": 0,
+      "width": 360,
+      "height": 140,
+      "text": "# Dimension 4\n33 registry templates",
+      "color": "4"
+    },
+    {
+      "id": "polytope-120-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 180,
+      "width": 360,
+      "height": 230,
+      "text": "# 120-cell\nid: `120-cell`\nSchläfli: {5,3,3}\nrank/dim: 4 / 4\ncategory: finite.convex\ncounts: V=600, E=1200, F=720, C=120\ndual: 600-cell\nfamily: False\nfinite: True\nomiPlane: 60x² high-plane\nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-16-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 440,
+      "width": 360,
+      "height": 230,
+      "text": "# 16-cell / 4-orthoplex\nid: `16-cell`\nSchläfli: {3,3,4}\nrank/dim: 4 / 4\ncategory: finite.convex\ncounts: V=8, E=24, F=32, C=16\ndual: 8-cell\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-24-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 700,
+      "width": 360,
+      "height": 230,
+      "text": "# 24-cell\nid: `24-cell`\nSchläfli: {3,4,3}\nrank/dim: 4 / 4\ncategory: finite.convex\ncounts: V=24, E=96, F=96, C=24\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-5-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 960,
+      "width": 360,
+      "height": 230,
+      "text": "# 5-cell / 4-simplex\nid: `5-cell`\nSchläfli: {3,3,3}\nrank/dim: 4 / 4\ncategory: finite.convex\ncounts: V=5, E=10, F=10, C=5\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-600-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 1220,
+      "width": 360,
+      "height": 230,
+      "text": "# 600-cell\nid: `600-cell`\nSchläfli: {3,3,5}\nrank/dim: 4 / 4\ncategory: finite.convex\ncounts: V=120, E=720, F=1200, C=600\ndual: 120-cell\nfamily: False\nfinite: True\nomiPlane: 60x² high-plane\nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-8-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 1480,
+      "width": 360,
+      "height": 230,
+      "text": "# 8-cell / Tesseract / 4-cube\nid: `8-cell`\nSchläfli: {4,3,3}\nrank/dim: 4 / 4\ncategory: finite.convex\ncounts: V=16, E=32, F=24, C=8\ndual: 16-cell\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-grand-120-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 1740,
+      "width": 360,
+      "height": 230,
+      "text": "# Grand 120-cell\nid: `grand-120-cell`\nSchläfli: {5,3,5/2}\nrank/dim: 4 / 4\ncategory: finite.star\ncounts: V=120, E=720, F=720, C=120\ndual: great-stellated-120-cell\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-grand-600-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 2000,
+      "width": 360,
+      "height": 230,
+      "text": "# Grand 600-cell\nid: `grand-600-cell`\nSchläfli: {3,3,5/2}\nrank/dim: 4 / 4\ncategory: finite.star\ncounts: V=120, E=720, F=1200, C=600\ndual: great-grand-stellated-120-cell\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-grand-stellated-120-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 2260,
+      "width": 360,
+      "height": 230,
+      "text": "# Grand stellated 120-cell\nid: `grand-stellated-120-cell`\nSchläfli: {5/2,5,5/2}\nrank/dim: 4 / 4\ncategory: finite.star\ncounts: V=120, E=720, F=720, C=120\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-great-120-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 2520,
+      "width": 360,
+      "height": 230,
+      "text": "# Great 120-cell\nid: `great-120-cell`\nSchläfli: {5,5/2,5}\nrank/dim: 4 / 4\ncategory: finite.star\ncounts: V=120, E=720, F=720, C=120\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-great-grand-120-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 2780,
+      "width": 360,
+      "height": 230,
+      "text": "# Great grand 120-cell\nid: `great-grand-120-cell`\nSchläfli: {5,5/2,3}\nrank/dim: 4 / 4\ncategory: finite.star\ncounts: V=120, E=1200, F=720, C=120\ndual: great-icosahedral-120-cell\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-great-grand-stellated-120-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 3040,
+      "width": 360,
+      "height": 230,
+      "text": "# Great grand stellated 120-cell\nid: `great-grand-stellated-120-cell`\nSchläfli: {5/2,3,3}\nrank/dim: 4 / 4\ncategory: finite.star\ncounts: V=600, E=1200, F=720, C=120\ndual: grand-600-cell\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-great-icosahedral-120-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 3300,
+      "width": 360,
+      "height": 230,
+      "text": "# Great icosahedral 120-cell / great faceted 600-cell\nid: `great-icosahedral-120-cell`\nSchläfli: {3,5/2,5}\nrank/dim: 4 / 4\ncategory: finite.star\ncounts: V=120, E=720, F=1200, C=120\ndual: great-grand-120-cell\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-great-stellated-120-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 3560,
+      "width": 360,
+      "height": 230,
+      "text": "# Great stellated 120-cell\nid: `great-stellated-120-cell`\nSchläfli: {5/2,3,5}\nrank/dim: 4 / 4\ncategory: finite.star\ncounts: V=120, E=720, F=720, C=120\ndual: grand-120-cell\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-icosahedral-120-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 3820,
+      "width": 360,
+      "height": 230,
+      "text": "# Icosahedral 120-cell / faceted 600-cell\nid: `icosahedral-120-cell`\nSchläfli: {3,5,5/2}\nrank/dim: 4 / 4\ncategory: finite.star\ncounts: V=120, E=720, F=1200, C=120\ndual: small-stellated-120-cell\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-small-stellated-120-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 4080,
+      "width": 360,
+      "height": 230,
+      "text": "# Small stellated 120-cell\nid: `small-stellated-120-cell`\nSchläfli: {5/2,5,3}\nrank/dim: 4 / 4\ncategory: finite.star\ncounts: V=120, E=1200, F=720, C=120\ndual: icosahedral-120-cell\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "2"
+    },
+    {
+      "id": "polytope-hemi-120-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 4340,
+      "width": 360,
+      "height": 230,
+      "text": "# Hemi-120-cell\nid: `hemi-120-cell`\nSchläfli: {5,3,3}/2\nrank/dim: 4 / 4\ncategory: projective.rank4\ncounts: V=300, E=600, F=360\ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Euler characteristic 0.",
+      "color": "3"
+    },
+    {
+      "id": "polytope-hemi-16-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 4600,
+      "width": 360,
+      "height": 230,
+      "text": "# Hemi-16-cell\nid: `hemi-16-cell`\nSchläfli: {3,3,4}/2\nrank/dim: 4 / 4\ncategory: projective.rank4\ncounts: V=4, E=12, F=16\ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Euler characteristic 0.",
+      "color": "3"
+    },
+    {
+      "id": "polytope-hemi-24-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 4860,
+      "width": 360,
+      "height": 230,
+      "text": "# Hemi-24-cell\nid: `hemi-24-cell`\nSchläfli: {3,4,3}/2\nrank/dim: 4 / 4\ncategory: projective.rank4\ncounts: V=12, E=48, F=48\ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Euler characteristic 0.",
+      "color": "3"
+    },
+    {
+      "id": "polytope-hemi-600-cell",
+      "type": "text",
+      "x": 1680,
+      "y": 5120,
+      "width": 360,
+      "height": 230,
+      "text": "# Hemi-600-cell\nid: `hemi-600-cell`\nSchläfli: {3,3,5}/2\nrank/dim: 4 / 4\ncategory: projective.rank4\ncounts: V=60, E=360, F=600\ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Euler characteristic 0.",
+      "color": "3"
+    },
+    {
+      "id": "polytope-hemitesseract",
+      "type": "text",
+      "x": 1680,
+      "y": 5380,
+      "width": 360,
+      "height": 230,
+      "text": "# Hemitesseract\nid: `hemitesseract`\nSchläfli: {4,3,3}/2\nrank/dim: 4 / 4\ncategory: projective.rank4\ncounts: V=8, E=16, F=12\ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Euler characteristic 0.",
+      "color": "3"
+    },
+    {
+      "id": "polytope-di-4-tope-0",
+      "type": "text",
+      "x": 1680,
+      "y": 5640,
+      "width": 360,
+      "height": 230,
+      "text": "# di-4-tope {3,3,2}\nid: `di-4-tope-0`\nSchläfli: {3,3,2}\nrank/dim: 4 / 4\ncategory: spherical.di-4-tope\ncounts: \ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular di-4-tope spherical tessellation.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-di-4-tope-1",
+      "type": "text",
+      "x": 1680,
+      "y": 5900,
+      "width": 360,
+      "height": 230,
+      "text": "# di-4-tope {3,4,2}\nid: `di-4-tope-1`\nSchläfli: {3,4,2}\nrank/dim: 4 / 4\ncategory: spherical.di-4-tope\ncounts: \ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular di-4-tope spherical tessellation.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-di-4-tope-2",
+      "type": "text",
+      "x": 1680,
+      "y": 6160,
+      "width": 360,
+      "height": 230,
+      "text": "# di-4-tope {4,3,2}\nid: `di-4-tope-2`\nSchläfli: {4,3,2}\nrank/dim: 4 / 4\ncategory: spherical.di-4-tope\ncounts: \ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular di-4-tope spherical tessellation.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-di-4-tope-3",
+      "type": "text",
+      "x": 1680,
+      "y": 6420,
+      "width": 360,
+      "height": 230,
+      "text": "# di-4-tope {5,3,2}\nid: `di-4-tope-3`\nSchläfli: {5,3,2}\nrank/dim: 4 / 4\ncategory: spherical.di-4-tope\ncounts: \ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular di-4-tope spherical tessellation.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-di-4-tope-4",
+      "type": "text",
+      "x": 1680,
+      "y": 6680,
+      "width": 360,
+      "height": 230,
+      "text": "# di-4-tope {3,5,2}\nid: `di-4-tope-4`\nSchläfli: {3,5,2}\nrank/dim: 4 / 4\ncategory: spherical.di-4-tope\ncounts: \ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular di-4-tope spherical tessellation.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-di-4-tope-5",
+      "type": "text",
+      "x": 1680,
+      "y": 6940,
+      "width": 360,
+      "height": 230,
+      "text": "# di-4-tope {p,2,2}\nid: `di-4-tope-5`\nSchläfli: {p,2,2}\nrank/dim: 4 / 4\ncategory: spherical.di-4-tope\ncounts: \ndual: \nfamily: True\nfinite: True\nomiPlane: \nnotes: Regular di-4-tope spherical tessellation.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-hoso-4-tope-0",
+      "type": "text",
+      "x": 1680,
+      "y": 7200,
+      "width": 360,
+      "height": 230,
+      "text": "# hoso-4-tope {2,3,3}\nid: `hoso-4-tope-0`\nSchläfli: {2,3,3}\nrank/dim: 4 / 4\ncategory: spherical.hoso-4-tope\ncounts: \ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular hoso-4-tope spherical tessellation.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-hoso-4-tope-1",
+      "type": "text",
+      "x": 1680,
+      "y": 7460,
+      "width": 360,
+      "height": 230,
+      "text": "# hoso-4-tope {2,4,3}\nid: `hoso-4-tope-1`\nSchläfli: {2,4,3}\nrank/dim: 4 / 4\ncategory: spherical.hoso-4-tope\ncounts: \ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular hoso-4-tope spherical tessellation.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-hoso-4-tope-2",
+      "type": "text",
+      "x": 1680,
+      "y": 7720,
+      "width": 360,
+      "height": 230,
+      "text": "# hoso-4-tope {2,3,4}\nid: `hoso-4-tope-2`\nSchläfli: {2,3,4}\nrank/dim: 4 / 4\ncategory: spherical.hoso-4-tope\ncounts: \ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular hoso-4-tope spherical tessellation.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-hoso-4-tope-3",
+      "type": "text",
+      "x": 1680,
+      "y": 7980,
+      "width": 360,
+      "height": 230,
+      "text": "# hoso-4-tope {2,3,5}\nid: `hoso-4-tope-3`\nSchläfli: {2,3,5}\nrank/dim: 4 / 4\ncategory: spherical.hoso-4-tope\ncounts: \ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular hoso-4-tope spherical tessellation.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-hoso-4-tope-4",
+      "type": "text",
+      "x": 1680,
+      "y": 8240,
+      "width": 360,
+      "height": 230,
+      "text": "# hoso-4-tope {2,5,3}\nid: `hoso-4-tope-4`\nSchläfli: {2,5,3}\nrank/dim: 4 / 4\ncategory: spherical.hoso-4-tope\ncounts: \ndual: \nfamily: False\nfinite: True\nomiPlane: \nnotes: Regular hoso-4-tope spherical tessellation.",
+      "color": "1"
+    },
+    {
+      "id": "polytope-hoso-4-tope-5",
+      "type": "text",
+      "x": 1680,
+      "y": 8500,
+      "width": 360,
+      "height": 230,
+      "text": "# hoso-4-tope {2,2,p}\nid: `hoso-4-tope-5`\nSchläfli: {2,2,p}\nrank/dim: 4 / 4\ncategory: spherical.hoso-4-tope\ncounts: \ndual: \nfamily: True\nfinite: True\nomiPlane: \nnotes: Regular hoso-4-tope spherical tessellation.",
+      "color": "1"
+    },
+    {
+      "id": "dimension-5",
+      "type": "text",
+      "x": 2100,
+      "y": 0,
+      "width": 360,
+      "height": 140,
+      "text": "# Dimension 5\n3 registry templates",
+      "color": "4"
+    },
+    {
+      "id": "polytope-5-cube",
+      "type": "text",
+      "x": 2100,
+      "y": 180,
+      "width": 360,
+      "height": 230,
+      "text": "# 5-cube\nid: `5-cube`\nSchläfli: {4,3,3,3}\nrank/dim: 5 / 5\ncategory: finite.convex\ncounts: V=32, E=80, F=80, Facets=10\ndual: 5-orthoplex\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-5-orthoplex",
+      "type": "text",
+      "x": 2100,
+      "y": 440,
+      "width": 360,
+      "height": 230,
+      "text": "# 5-orthoplex\nid: `5-orthoplex`\nSchläfli: {3,3,3,4}\nrank/dim: 5 / 5\ncategory: finite.convex\ncounts: V=10, E=40, F=80, Facets=32\ndual: 5-cube\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-5-simplex",
+      "type": "text",
+      "x": 2100,
+      "y": 700,
+      "width": 360,
+      "height": 230,
+      "text": "# 5-simplex\nid: `5-simplex`\nSchläfli: {3,3,3,3}\nrank/dim: 5 / 5\ncategory: finite.convex\ncounts: V=6, E=15, F=20, Facets=6\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "dimension-6",
+      "type": "text",
+      "x": 2520,
+      "y": 0,
+      "width": 360,
+      "height": 140,
+      "text": "# Dimension 6\n3 registry templates",
+      "color": "4"
+    },
+    {
+      "id": "polytope-6-cube",
+      "type": "text",
+      "x": 2520,
+      "y": 180,
+      "width": 360,
+      "height": 230,
+      "text": "# 6-cube\nid: `6-cube`\nSchläfli: {4,3,3,3,3}\nrank/dim: 6 / 6\ncategory: finite.convex\ncounts: V=64, E=192, F=240, Facets=12\ndual: 6-orthoplex\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-6-orthoplex",
+      "type": "text",
+      "x": 2520,
+      "y": 440,
+      "width": 360,
+      "height": 230,
+      "text": "# 6-orthoplex\nid: `6-orthoplex`\nSchläfli: {3,3,3,3,4}\nrank/dim: 6 / 6\ncategory: finite.convex\ncounts: V=12, E=60, F=160, Facets=64\ndual: 6-cube\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-6-simplex",
+      "type": "text",
+      "x": 2520,
+      "y": 700,
+      "width": 360,
+      "height": 230,
+      "text": "# 6-simplex\nid: `6-simplex`\nSchläfli: {3,3,3,3,3}\nrank/dim: 6 / 6\ncategory: finite.convex\ncounts: V=7, E=21, F=35, Facets=7\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "dimension-7",
+      "type": "text",
+      "x": 2940,
+      "y": 0,
+      "width": 360,
+      "height": 140,
+      "text": "# Dimension 7\n3 registry templates",
+      "color": "4"
+    },
+    {
+      "id": "polytope-7-cube",
+      "type": "text",
+      "x": 2940,
+      "y": 180,
+      "width": 360,
+      "height": 230,
+      "text": "# 7-cube\nid: `7-cube`\nSchläfli: {4,3,3,3,3,3}\nrank/dim: 7 / 7\ncategory: finite.convex\ncounts: V=128, E=448, F=672, Facets=14\ndual: 7-orthoplex\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-7-orthoplex",
+      "type": "text",
+      "x": 2940,
+      "y": 440,
+      "width": 360,
+      "height": 230,
+      "text": "# 7-orthoplex\nid: `7-orthoplex`\nSchläfli: {3,3,3,3,3,4}\nrank/dim: 7 / 7\ncategory: finite.convex\ncounts: V=14, E=84, F=280, Facets=128\ndual: 7-cube\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-7-simplex",
+      "type": "text",
+      "x": 2940,
+      "y": 700,
+      "width": 360,
+      "height": 230,
+      "text": "# 7-simplex\nid: `7-simplex`\nSchläfli: {3,3,3,3,3,3}\nrank/dim: 7 / 7\ncategory: finite.convex\ncounts: V=8, E=28, F=56, Facets=8\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "dimension-8",
+      "type": "text",
+      "x": 3360,
+      "y": 0,
+      "width": 360,
+      "height": 140,
+      "text": "# Dimension 8\n3 registry templates",
+      "color": "4"
+    },
+    {
+      "id": "polytope-8-cube",
+      "type": "text",
+      "x": 3360,
+      "y": 180,
+      "width": 360,
+      "height": 230,
+      "text": "# 8-cube\nid: `8-cube`\nSchläfli: {4,3,3,3,3,3,3}\nrank/dim: 8 / 8\ncategory: finite.convex\ncounts: V=256, E=1024, F=1792, Facets=16\ndual: 8-orthoplex\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-8-orthoplex",
+      "type": "text",
+      "x": 3360,
+      "y": 440,
+      "width": 360,
+      "height": 230,
+      "text": "# 8-orthoplex\nid: `8-orthoplex`\nSchläfli: {3,3,3,3,3,3,4}\nrank/dim: 8 / 8\ncategory: finite.convex\ncounts: V=16, E=112, F=448, Facets=256\ndual: 8-cube\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-8-simplex",
+      "type": "text",
+      "x": 3360,
+      "y": 700,
+      "width": 360,
+      "height": 230,
+      "text": "# 8-simplex\nid: `8-simplex`\nSchläfli: {3,3,3,3,3,3,3}\nrank/dim: 8 / 8\ncategory: finite.convex\ncounts: V=9, E=36, F=84, Facets=9\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "dimension-9",
+      "type": "text",
+      "x": 3780,
+      "y": 0,
+      "width": 360,
+      "height": 140,
+      "text": "# Dimension 9\n3 registry templates",
+      "color": "4"
+    },
+    {
+      "id": "polytope-9-cube",
+      "type": "text",
+      "x": 3780,
+      "y": 180,
+      "width": 360,
+      "height": 230,
+      "text": "# 9-cube\nid: `9-cube`\nSchläfli: {4,3^7}\nrank/dim: 9 / 9\ncategory: finite.convex\ncounts: V=512, E=2304, F=4608, Facets=18\ndual: 9-orthoplex\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-9-orthoplex",
+      "type": "text",
+      "x": 3780,
+      "y": 440,
+      "width": 360,
+      "height": 230,
+      "text": "# 9-orthoplex\nid: `9-orthoplex`\nSchläfli: {3^7,4}\nrank/dim: 9 / 9\ncategory: finite.convex\ncounts: V=18, E=144, F=672, Facets=512\ndual: 9-cube\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-9-simplex",
+      "type": "text",
+      "x": 3780,
+      "y": 700,
+      "width": 360,
+      "height": 230,
+      "text": "# 9-simplex\nid: `9-simplex`\nSchläfli: {3^8}\nrank/dim: 9 / 9\ncategory: finite.convex\ncounts: V=10, E=45, F=120, Facets=10\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "dimension-10",
+      "type": "text",
+      "x": 4200,
+      "y": 0,
+      "width": 360,
+      "height": 140,
+      "text": "# Dimension 10\n3 registry templates",
+      "color": "4"
+    },
+    {
+      "id": "polytope-10-cube",
+      "type": "text",
+      "x": 4200,
+      "y": 180,
+      "width": 360,
+      "height": 230,
+      "text": "# 10-cube\nid: `10-cube`\nSchläfli: {4,3^8}\nrank/dim: 10 / 10\ncategory: finite.convex\ncounts: V=1024, E=5120, F=11520, Facets=20\ndual: 10-orthoplex\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-10-orthoplex",
+      "type": "text",
+      "x": 4200,
+      "y": 440,
+      "width": 360,
+      "height": 230,
+      "text": "# 10-orthoplex\nid: `10-orthoplex`\nSchläfli: {3^8,4}\nrank/dim: 10 / 10\ncategory: finite.convex\ncounts: V=20, E=180, F=960, Facets=1024\ndual: 10-cube\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "polytope-10-simplex",
+      "type": "text",
+      "x": 4200,
+      "y": 700,
+      "width": 360,
+      "height": 230,
+      "text": "# 10-simplex\nid: `10-simplex`\nSchläfli: {3^9}\nrank/dim: 10 / 10\ncategory: finite.convex\ncounts: V=11, E=55, F=165, Facets=11\ndual: self\nfamily: False\nfinite: True\nomiPlane: \nnotes:",
+      "color": "1"
+    },
+    {
+      "id": "dimension-n",
+      "type": "text",
+      "x": 4620,
+      "y": 0,
+      "width": 360,
+      "height": 140,
+      "text": "# Dimension n\n5 registry templates",
+      "color": "4"
+    },
+    {
+      "id": "polytope-n-cube",
+      "type": "text",
+      "x": 4620,
+      "y": 180,
+      "width": 360,
+      "height": 230,
+      "text": "# n-cube / hypercube\nid: `n-cube`\nSchläfli: {4,3^(n-2)}\nrank/dim:  / n\ncategory: family.convex\ncounts: V=2^n\ndual: n-orthoplex\nfamily: True\nfinite: True\nomiPlane: \nnotes: One of the three convex regular families for n >= 5.",
+      "color": "4"
+    },
+    {
+      "id": "polytope-n-orthoplex",
+      "type": "text",
+      "x": 4620,
+      "y": 440,
+      "width": 360,
+      "height": 230,
+      "text": "# n-orthoplex / cross-polytope\nid: `n-orthoplex`\nSchläfli: {3^(n-2),4}\nrank/dim:  / n\ncategory: family.convex\ncounts: V=2n\ndual: n-cube\nfamily: True\nfinite: True\nomiPlane: \nnotes: One of the three convex regular families for n >= 5.",
+      "color": "4"
+    },
+    {
+      "id": "polytope-n-simplex",
+      "type": "text",
+      "x": 4620,
+      "y": 700,
+      "width": 360,
+      "height": 230,
+      "text": "# n-simplex\nid: `n-simplex`\nSchläfli: {3^(n-1)}\nrank/dim:  / n\ncategory: family.convex\ncounts: V=n+1\ndual: self\nfamily: True\nfinite: True\nomiPlane: \nnotes: One of the three convex regular families for n >= 5.",
+      "color": "4"
+    },
+    {
+      "id": "polytope-hemi-n-cube",
+      "type": "text",
+      "x": 4620,
+      "y": 960,
+      "width": 360,
+      "height": 230,
+      "text": "# hemi-n-cube\nid: `hemi-n-cube`\nSchläfli: {4,3^(n-2)}/2\nrank/dim:  / n\ncategory: family.projective\ncounts: V=2^(n-1)\ndual: \nfamily: True\nfinite: True\nomiPlane: \nnotes: Projective regular hypercube family.",
+      "color": "3"
+    },
+    {
+      "id": "polytope-hemi-n-orthoplex",
+      "type": "text",
+      "x": 4620,
+      "y": 1220,
+      "width": 360,
+      "height": 230,
+      "text": "# hemi-n-orthoplex\nid: `hemi-n-orthoplex`\nSchläfli: {3^(n-2),4}/2\nrank/dim:  / n\ncategory: family.projective\ncounts: V=n\ndual: \nfamily: True\nfinite: True\nomiPlane: \nnotes: Projective regular orthoplex family.",
+      "color": "3"
+    }
+  ],
+  "edges": []
+}

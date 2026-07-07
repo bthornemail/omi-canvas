@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="360" viewBox="0 0 560 360">
+<g>
+<rect x="20.00" y="20.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="20.00" y1="56.00" x2="70.00" y2="20.00" stroke="black" stroke-width="1.00"/>
+<text x="28.00" y="42.00" font-family="monospace" font-size="14">1</text>
+<rect x="20.00" y="56.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="20.00" y1="92.00" x2="70.00" y2="56.00" stroke="black" stroke-width="1.00"/>
+<text x="28.00" y="78.00" font-family="monospace" font-size="14">2</text>
+<rect x="20.00" y="92.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="20.00" y1="128.00" x2="70.00" y2="92.00" stroke="black" stroke-width="1.00"/>
+<text x="28.00" y="114.00" font-family="monospace" font-size="14">3</text>
+<rect x="20.00" y="128.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="20.00" y1="164.00" x2="70.00" y2="128.00" stroke="black" stroke-width="1.00"/>
+<text x="28.00" y="150.00" font-family="monospace" font-size="14">4</text>
+<rect x="20.00" y="164.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="20.00" y1="200.00" x2="70.00" y2="164.00" stroke="black" stroke-width="1.00"/>
+<text x="28.00" y="186.00" font-family="monospace" font-size="14">5</text>
+<rect x="20.00" y="200.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="20.00" y1="236.00" x2="70.00" y2="200.00" stroke="black" stroke-width="1.00"/>
+<text x="28.00" y="222.00" font-family="monospace" font-size="14">6</text>
+<rect x="20.00" y="236.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="20.00" y1="272.00" x2="70.00" y2="236.00" stroke="black" stroke-width="1.00"/>
+<text x="28.00" y="258.00" font-family="monospace" font-size="14">7</text>
+<rect x="70.00" y="20.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="70.00" y1="56.00" x2="120.00" y2="20.00" stroke="black" stroke-width="1.00"/>
+<text x="78.00" y="42.00" font-family="monospace" font-size="14">2</text>
+<rect x="70.00" y="56.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="70.00" y1="92.00" x2="120.00" y2="56.00" stroke="black" stroke-width="1.00"/>
+<text x="78.00" y="78.00" font-family="monospace" font-size="14">4</text>
+<rect x="70.00" y="92.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="70.00" y1="128.00" x2="120.00" y2="92.00" stroke="black" stroke-width="1.00"/>
+<text x="78.00" y="114.00" font-family="monospace" font-size="14">6</text>
+<rect x="70.00" y="128.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="70.00" y1="164.00" x2="120.00" y2="128.00" stroke="black" stroke-width="1.00"/>
+<text x="78.00" y="150.00" font-family="monospace" font-size="14">8</text>
+<rect x="70.00" y="164.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="70.00" y1="200.00" x2="120.00" y2="164.00" stroke="black" stroke-width="1.00"/>
+<text x="78.00" y="186.00" font-family="monospace" font-size="14">10</text>
+<rect x="70.00" y="200.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="70.00" y1="236.00" x2="120.00" y2="200.00" stroke="black" stroke-width="1.00"/>
+<text x="78.00" y="222.00" font-family="monospace" font-size="14">12</text>
+<rect x="70.00" y="236.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="70.00" y1="272.00" x2="120.00" y2="236.00" stroke="black" stroke-width="1.00"/>
+<text x="78.00" y="258.00" font-family="monospace" font-size="14">14</text>
+<rect x="120.00" y="20.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="120.00" y1="56.00" x2="170.00" y2="20.00" stroke="black" stroke-width="1.00"/>
+<text x="128.00" y="42.00" font-family="monospace" font-size="14">3</text>
+<rect x="120.00" y="56.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="120.00" y1="92.00" x2="170.00" y2="56.00" stroke="black" stroke-width="1.00"/>
+<text x="128.00" y="78.00" font-family="monospace" font-size="14">6</text>
+<rect x="120.00" y="92.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="120.00" y1="128.00" x2="170.00" y2="92.00" stroke="black" stroke-width="1.00"/>
+<text x="128.00" y="114.00" font-family="monospace" font-size="14">9</text>
+<rect x="120.00" y="128.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="120.00" y1="164.00" x2="170.00" y2="128.00" stroke="black" stroke-width="1.00"/>
+<text x="128.00" y="150.00" font-family="monospace" font-size="14">12</text>
+<rect x="120.00" y="164.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="120.00" y1="200.00" x2="170.00" y2="164.00" stroke="black" stroke-width="1.00"/>
+<text x="128.00" y="186.00" font-family="monospace" font-size="14">15</text>
+<rect x="120.00" y="200.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="120.00" y1="236.00" x2="170.00" y2="200.00" stroke="black" stroke-width="1.00"/>
+<text x="128.00" y="222.00" font-family="monospace" font-size="14">18</text>
+<rect x="120.00" y="236.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="120.00" y1="272.00" x2="170.00" y2="236.00" stroke="black" stroke-width="1.00"/>
+<text x="128.00" y="258.00" font-family="monospace" font-size="14">21</text>
+<rect x="170.00" y="20.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="170.00" y1="56.00" x2="220.00" y2="20.00" stroke="black" stroke-width="1.00"/>
+<text x="178.00" y="42.00" font-family="monospace" font-size="14">4</text>
+<rect x="170.00" y="56.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="170.00" y1="92.00" x2="220.00" y2="56.00" stroke="black" stroke-width="1.00"/>
+<text x="178.00" y="78.00" font-family="monospace" font-size="14">8</text>
+<rect x="170.00" y="92.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="170.00" y1="128.00" x2="220.00" y2="92.00" stroke="black" stroke-width="1.00"/>
+<text x="178.00" y="114.00" font-family="monospace" font-size="14">12</text>
+<rect x="170.00" y="128.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="170.00" y1="164.00" x2="220.00" y2="128.00" stroke="black" stroke-width="1.00"/>
+<text x="178.00" y="150.00" font-family="monospace" font-size="14">16</text>
+<rect x="170.00" y="164.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="170.00" y1="200.00" x2="220.00" y2="164.00" stroke="black" stroke-width="1.00"/>
+<text x="178.00" y="186.00" font-family="monospace" font-size="14">20</text>
+<rect x="170.00" y="200.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="170.00" y1="236.00" x2="220.00" y2="200.00" stroke="black" stroke-width="1.00"/>
+<text x="178.00" y="222.00" font-family="monospace" font-size="14">24</text>
+<rect x="170.00" y="236.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="170.00" y1="272.00" x2="220.00" y2="236.00" stroke="black" stroke-width="1.00"/>
+<text x="178.00" y="258.00" font-family="monospace" font-size="14">28</text>
+<rect x="220.00" y="20.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="220.00" y1="56.00" x2="270.00" y2="20.00" stroke="black" stroke-width="1.00"/>
+<text x="228.00" y="42.00" font-family="monospace" font-size="14">5</text>
+<rect x="220.00" y="56.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="220.00" y1="92.00" x2="270.00" y2="56.00" stroke="black" stroke-width="1.00"/>
+<text x="228.00" y="78.00" font-family="monospace" font-size="14">10</text>
+<rect x="220.00" y="92.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="220.00" y1="128.00" x2="270.00" y2="92.00" stroke="black" stroke-width="1.00"/>
+<text x="228.00" y="114.00" font-family="monospace" font-size="14">15</text>
+<rect x="220.00" y="128.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="220.00" y1="164.00" x2="270.00" y2="128.00" stroke="black" stroke-width="1.00"/>
+<text x="228.00" y="150.00" font-family="monospace" font-size="14">20</text>
+<rect x="220.00" y="164.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="220.00" y1="200.00" x2="270.00" y2="164.00" stroke="black" stroke-width="1.00"/>
+<text x="228.00" y="186.00" font-family="monospace" font-size="14">25</text>
+<rect x="220.00" y="200.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="220.00" y1="236.00" x2="270.00" y2="200.00" stroke="black" stroke-width="1.00"/>
+<text x="228.00" y="222.00" font-family="monospace" font-size="14">30</text>
+<rect x="220.00" y="236.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="220.00" y1="272.00" x2="270.00" y2="236.00" stroke="black" stroke-width="1.00"/>
+<text x="228.00" y="258.00" font-family="monospace" font-size="14">35</text>
+<rect x="270.00" y="20.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="270.00" y1="56.00" x2="320.00" y2="20.00" stroke="black" stroke-width="1.00"/>
+<text x="278.00" y="42.00" font-family="monospace" font-size="14">6</text>
+<rect x="270.00" y="56.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="270.00" y1="92.00" x2="320.00" y2="56.00" stroke="black" stroke-width="1.00"/>
+<text x="278.00" y="78.00" font-family="monospace" font-size="14">12</text>
+<rect x="270.00" y="92.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="270.00" y1="128.00" x2="320.00" y2="92.00" stroke="black" stroke-width="1.00"/>
+<text x="278.00" y="114.00" font-family="monospace" font-size="14">18</text>
+<rect x="270.00" y="128.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="270.00" y1="164.00" x2="320.00" y2="128.00" stroke="black" stroke-width="1.00"/>
+<text x="278.00" y="150.00" font-family="monospace" font-size="14">24</text>
+<rect x="270.00" y="164.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="270.00" y1="200.00" x2="320.00" y2="164.00" stroke="black" stroke-width="1.00"/>
+<text x="278.00" y="186.00" font-family="monospace" font-size="14">30</text>
+<rect x="270.00" y="200.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="270.00" y1="236.00" x2="320.00" y2="200.00" stroke="black" stroke-width="1.00"/>
+<text x="278.00" y="222.00" font-family="monospace" font-size="14">36</text>
+<rect x="270.00" y="236.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="270.00" y1="272.00" x2="320.00" y2="236.00" stroke="black" stroke-width="1.00"/>
+<text x="278.00" y="258.00" font-family="monospace" font-size="14">42</text>
+<rect x="320.00" y="20.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="320.00" y1="56.00" x2="370.00" y2="20.00" stroke="black" stroke-width="1.00"/>
+<text x="328.00" y="42.00" font-family="monospace" font-size="14">7</text>
+<rect x="320.00" y="56.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="320.00" y1="92.00" x2="370.00" y2="56.00" stroke="black" stroke-width="1.00"/>
+<text x="328.00" y="78.00" font-family="monospace" font-size="14">14</text>
+<rect x="320.00" y="92.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="320.00" y1="128.00" x2="370.00" y2="92.00" stroke="black" stroke-width="1.00"/>
+<text x="328.00" y="114.00" font-family="monospace" font-size="14">21</text>
+<rect x="320.00" y="128.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="320.00" y1="164.00" x2="370.00" y2="128.00" stroke="black" stroke-width="1.00"/>
+<text x="328.00" y="150.00" font-family="monospace" font-size="14">28</text>
+<rect x="320.00" y="164.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="320.00" y1="200.00" x2="370.00" y2="164.00" stroke="black" stroke-width="1.00"/>
+<text x="328.00" y="186.00" font-family="monospace" font-size="14">35</text>
+<rect x="320.00" y="200.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="320.00" y1="236.00" x2="370.00" y2="200.00" stroke="black" stroke-width="1.00"/>
+<text x="328.00" y="222.00" font-family="monospace" font-size="14">42</text>
+<rect x="320.00" y="236.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="320.00" y1="272.00" x2="370.00" y2="236.00" stroke="black" stroke-width="1.00"/>
+<text x="328.00" y="258.00" font-family="monospace" font-size="14">49</text>
+<rect x="370.00" y="20.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="370.00" y1="56.00" x2="420.00" y2="20.00" stroke="black" stroke-width="1.00"/>
+<text x="378.00" y="42.00" font-family="monospace" font-size="14">8</text>
+<rect x="370.00" y="56.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="370.00" y1="92.00" x2="420.00" y2="56.00" stroke="black" stroke-width="1.00"/>
+<text x="378.00" y="78.00" font-family="monospace" font-size="14">16</text>
+<rect x="370.00" y="92.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="370.00" y1="128.00" x2="420.00" y2="92.00" stroke="black" stroke-width="1.00"/>
+<text x="378.00" y="114.00" font-family="monospace" font-size="14">24</text>
+<rect x="370.00" y="128.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="370.00" y1="164.00" x2="420.00" y2="128.00" stroke="black" stroke-width="1.00"/>
+<text x="378.00" y="150.00" font-family="monospace" font-size="14">32</text>
+<rect x="370.00" y="164.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="370.00" y1="200.00" x2="420.00" y2="164.00" stroke="black" stroke-width="1.00"/>
+<text x="378.00" y="186.00" font-family="monospace" font-size="14">40</text>
+<rect x="370.00" y="200.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="370.00" y1="236.00" x2="420.00" y2="200.00" stroke="black" stroke-width="1.00"/>
+<text x="378.00" y="222.00" font-family="monospace" font-size="14">48</text>
+<rect x="370.00" y="236.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="370.00" y1="272.00" x2="420.00" y2="236.00" stroke="black" stroke-width="1.00"/>
+<text x="378.00" y="258.00" font-family="monospace" font-size="14">56</text>
+<rect x="420.00" y="20.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="420.00" y1="56.00" x2="470.00" y2="20.00" stroke="black" stroke-width="1.00"/>
+<text x="428.00" y="42.00" font-family="monospace" font-size="14">9</text>
+<rect x="420.00" y="56.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="420.00" y1="92.00" x2="470.00" y2="56.00" stroke="black" stroke-width="1.00"/>
+<text x="428.00" y="78.00" font-family="monospace" font-size="14">18</text>
+<rect x="420.00" y="92.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="420.00" y1="128.00" x2="470.00" y2="92.00" stroke="black" stroke-width="1.00"/>
+<text x="428.00" y="114.00" font-family="monospace" font-size="14">27</text>
+<rect x="420.00" y="128.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="420.00" y1="164.00" x2="470.00" y2="128.00" stroke="black" stroke-width="1.00"/>
+<text x="428.00" y="150.00" font-family="monospace" font-size="14">36</text>
+<rect x="420.00" y="164.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="420.00" y1="200.00" x2="470.00" y2="164.00" stroke="black" stroke-width="1.00"/>
+<text x="428.00" y="186.00" font-family="monospace" font-size="14">45</text>
+<rect x="420.00" y="200.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="420.00" y1="236.00" x2="470.00" y2="200.00" stroke="black" stroke-width="1.00"/>
+<text x="428.00" y="222.00" font-family="monospace" font-size="14">54</text>
+<rect x="420.00" y="236.00" width="50.00" height="36.00" fill="white" stroke="black"/>
+<line x1="420.00" y1="272.00" x2="470.00" y2="236.00" stroke="black" stroke-width="1.00"/>
+<text x="428.00" y="258.00" font-family="monospace" font-size="14">63</text>
+<text x="20.00" y="302.00" font-family="monospace" font-size="18">Genaille-style division rods</text>
+</g>
+</svg>
