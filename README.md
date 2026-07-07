@@ -100,3 +100,33 @@ ghc -isrc -fforce-recomp -fno-code app/Main.hs
 - JSON Canvas is adapter output only; it is not an authority surface.
 - Hashes/checksums used by adapters are evidence metadata only. OMI identity remains the addressed place-value relation, not a digest.
 - There is no heavy `OmiFragment` schema. Carrier exchange is prefix + CAR frame + CDR frame + unary register; composition carries meaning and receipt accepts.
+
+## Polytope Toolbox
+
+The polytope registry (`archive/polytome/omi_regular_polytope_registry.json`) provides 160 polytope templates and 4 OMI configuration witnesses as projection data. The registry is not authority — rendering is projection only.
+
+- Haskell types and JSON loaders: `archive/polytome/OmiCanvasPolytopeRegistry.hs`
+- Obsidian/Canvas toolbox: `archive/polytome/omi-polytope-toolbox.canvas`
+- Normalized template JSON: `archive/polytome/omi-polytope-toolbox.normalized.json`
+
+Usage flow:
+
+```text
+registry JSON
+  → Haskell Registry type (archive/polytope/)
+  → filter/group by dimension/category
+  → render as toolbox cards
+  → clone/drag into canvas as snap-to-grid templates
+  → attach accepted OMI relation metadata only after validation
+```
+
+## Polyform Carrier Layer (C)
+
+The C polyform carrier bundle at `c/polyform-carriers/` provides a 40-bit codepoint projection handle and deterministic SVG/barcode/bitmap witness generation.
+
+- 40-bit codepoint layout: 5 bits basis, 5 bits rank, 5 bits group, 5 bits degree, 20 bits path/witness
+- Surfaces: polyform SVG, BEEtag 5x5, Aztec-like spiral, MaxiCode-like bullseye+hex, Smith chart, Genaille rods
+- The codepoint is a projection handle, not OMI identity
+- Rendering is projection, not validation
+
+See `c/polyform-carriers/README.md` for build and CLI details.

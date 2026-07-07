@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="140" viewBox="0 0 800 140">
+<g>
+<rect x="0.00" y="0.00" width="800.00" height="140.00" fill="white" stroke="black"/>
+<rect x="20.00" y="30.00" width="90.00" height="50.00" fill="#eee" stroke="black"/>
+<text x="50" y="60" font-family="monospace" font-size="16">64</text>
+<circle cx="65" cy="100" r="6" fill="black">
+<animate attributeName="cy" values="100;90;100" dur="1.2s" begin="0.0s" repeatCount="1"/>
+</circle>
+<rect x="120.00" y="30.00" width="90.00" height="50.00" fill="#eee" stroke="black"/>
+<text x="150" y="60" font-family="monospace" font-size="16">32</text>
+<circle cx="165" cy="100" r="6" fill="black">
+<animate attributeName="cy" values="100;90;100" dur="1.2s" begin="0.2s" repeatCount="1"/>
+</circle>
+<rect x="220.00" y="30.00" width="90.00" height="50.00" fill="#eee" stroke="black"/>
+<text x="250" y="60" font-family="monospace" font-size="16">16</text>
+<circle cx="265" cy="100" r="6" fill="black">
+<animate attributeName="cy" values="100;90;100" dur="1.2s" begin="0.5s" repeatCount="1"/>
+</circle>
+<rect x="320.00" y="30.00" width="90.00" height="50.00" fill="#eee" stroke="black"/>
+<text x="350" y="60" font-family="monospace" font-size="16">8</text>
+<circle cx="365" cy="100" r="6" fill="black">
+<animate attributeName="cy" values="100;90;100" dur="1.2s" begin="0.8s" repeatCount="1"/>
+</circle>
+<rect x="420.00" y="30.00" width="90.00" height="50.00" fill="#eee" stroke="black"/>
+<text x="450" y="60" font-family="monospace" font-size="16">4</text>
+<circle cx="465" cy="100" r="6" fill="black">
+<animate attributeName="cy" values="100;90;100" dur="1.2s" begin="1.0s" repeatCount="1"/>
+</circle>
+<rect x="520.00" y="30.00" width="90.00" height="50.00" fill="#eee" stroke="black"/>
+<text x="550" y="60" font-family="monospace" font-size="16">2</text>
+<circle cx="565" cy="100" r="6" fill="black">
+<animate attributeName="cy" values="100;90;100" dur="1.2s" begin="1.2s" repeatCount="1"/>
+</circle>
+<rect x="620.00" y="30.00" width="90.00" height="50.00" fill="#eee" stroke="black"/>
+<text x="650" y="60" font-family="monospace" font-size="16">1</text>
+<circle cx="665" cy="100" r="6" fill="black">
+<animate attributeName="cy" values="100;90;100" dur="1.2s" begin="1.5s" repeatCount="1"/>
+</circle>
+<text x="20.00" y="20.00" font-family="monospace" font-size="18">Binary Guess Number Trick</text>
+</g>
+</svg>

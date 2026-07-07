@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700">
+<g>
+<circle cx="350.00" cy="350.00" r="315.00" fill="white" stroke="black" stroke-width="2.00"/>
+<line x1="35.00" y1="350.00" x2="665.00" y2="350.00" stroke="black" stroke-width="1.50"/>
+<circle cx="116.67" cy="350.00" r="291.67" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="233.33" cy="350.00" r="233.33" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="350.00" cy="350.00" r="175.00" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="466.67" cy="350.00" r="116.67" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="583.33" cy="350.00" r="58.33" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="665.00" cy="-1400.00" r="1750.00" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="665.00" cy="2100.00" r="1750.00" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="665.00" cy="-350.00" r="700.00" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="665.00" cy="1050.00" r="700.00" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="665.00" cy="0.00" r="350.00" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="665.00" cy="700.00" r="350.00" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="665.00" cy="175.00" r="175.00" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="665.00" cy="525.00" r="175.00" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="665.00" cy="280.00" r="70.00" fill="none" stroke="#666" stroke-width="0.75"/>
+<circle cx="665.00" cy="420.00" r="70.00" fill="none" stroke="#666" stroke-width="0.75"/>
+<text x="20.00" y="30.00" font-family="monospace" font-size="18">Smith Chart</text>
+</g>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+<g>
+<rect x="0.00" y="0.00" width="180.00" height="180.00" fill="black" stroke="black"/>
+<rect x="20.00" y="20.00" width="140.00" height="140.00" fill="white" stroke="none"/>
+<rect x="40.00" y="40.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="60.00" y="40.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="80.00" y="40.00" width="20.00" height="20.00" fill="white" stroke="none"/>
+<rect x="100.00" y="40.00" width="20.00" height="20.00" fill="white" stroke="none"/>
+<rect x="120.00" y="40.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="40.00" y="60.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="60.00" y="60.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="80.00" y="60.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="100.00" y="60.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="120.00" y="60.00" width="20.00" height="20.00" fill="white" stroke="none"/>
+<rect x="40.00" y="80.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="60.00" y="80.00" width="20.00" height="20.00" fill="white" stroke="none"/>
+<rect x="80.00" y="80.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="100.00" y="80.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="120.00" y="80.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="40.00" y="100.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="60.00" y="100.00" width="20.00" height="20.00" fill="white" stroke="none"/>
+<rect x="80.00" y="100.00" width="20.00" height="20.00" fill="white" stroke="none"/>
+<rect x="100.00" y="100.00" width="20.00" height="20.00" fill="white" stroke="none"/>
+<rect x="120.00" y="100.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="40.00" y="120.00" width="20.00" height="20.00" fill="white" stroke="none"/>
+<rect x="60.00" y="120.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="80.00" y="120.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="100.00" y="120.00" width="20.00" height="20.00" fill="black" stroke="none"/>
+<rect x="120.00" y="120.00" width="20.00" height="20.00" fill="white" stroke="none"/>
+</g>
+</svg>
