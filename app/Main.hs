@@ -1,6 +1,8 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 
-module Entry where
+module Main where
+
+import Prelude (IO, pure)
 
 import OMI.Kernel
 import OMI.Core
@@ -36,3 +38,6 @@ byteD = mkByte O I O O O O I O
 
 parseResult :: [SExpr]
 parseResult = parseBytes testInput
+
+main :: IO ()
+main = pure ()

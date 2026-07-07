@@ -1,0 +1,38 @@
+cabal-version: 3.0
+name: omi-canvas
+version: 0.1.0.0
+build-type: Simple
+
+library
+  exposed-modules:
+      OMI.Canvas
+      OMI.Core
+      OMI.DecisionTable
+      OMI.Gauge
+      OMI.Karnaugh
+      OMI.Kernel
+      OMI.Lisp
+      OMI.Pipeline
+      OMI.Relation
+      OMI.TruthGate
+      OMI.Wittgenstein
+  hs-source-dirs: src
+  build-depends: base >=4.16 && <5
+  default-language: Haskell2010
+
+executable omi-canvas
+  main-is: Main.hs
+  hs-source-dirs: app
+  build-depends:
+      base >=4.16 && <5,
+      omi-canvas
+  default-language: Haskell2010
+
+test-suite omi-canvas-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  hs-source-dirs: test
+  build-depends:
+      base >=4.16 && <5,
+      omi-canvas
+  default-language: Haskell2010
