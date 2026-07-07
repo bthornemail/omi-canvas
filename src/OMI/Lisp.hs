@@ -148,6 +148,167 @@ listToExprs (SCons x xs) = x : listToExprs xs
 listToExprs _ = []
 
 --
+-- Rule and RuleSet types
+--
+
+data Rule = Rule
+  { ruleQuestion   :: Byte
+  , ruleAlgorithm  :: Byte
+  , ruleSlot       :: Byte
+  , ruleProofForm  :: Byte
+  , ruleOperator   :: Byte
+  , ruleTruthCode  :: [Byte]
+  , ruleGate       :: [Byte]
+  }
+
+data RuleSet = RuleSet
+  { rsName    :: [Byte]
+  , rsRules   :: [Rule]
+  , rsGauge   :: Byte
+  , rsReceipt :: [Byte]
+  }
+
+emptyRule :: Rule
+emptyRule = Rule byteNull byteNull byteNull byteNull byteNull [] []
+
+emptyRuleSet :: RuleSet
+emptyRuleSet = RuleSet [] [] byteNull []
+
+--
+-- Gauge family: F* Wittgenstein operator dialect
+--
+
+gaugeF0 :: Byte
+gaugeF0 = mkByte I I I I O O O O  -- 0xF0
+gaugeF1 :: Byte
+gaugeF1 = mkByte I I I I O O O I  -- 0xF1
+gaugeF2 :: Byte
+gaugeF2 = mkByte I I I I O O I O  -- 0xF2
+gaugeF3 :: Byte
+gaugeF3 = mkByte I I I I O O I I  -- 0xF3
+gaugeF4 :: Byte
+gaugeF4 = mkByte I I I I O I O O  -- 0xF4
+gaugeF5 :: Byte
+gaugeF5 = mkByte I I I I O I O I  -- 0xF5
+gaugeF6 :: Byte
+gaugeF6 = mkByte I I I I O I I O  -- 0xF6
+gaugeF7 :: Byte
+gaugeF7 = mkByte I I I I O I I I  -- 0xF7
+gaugeF8 :: Byte
+gaugeF8 = mkByte I I I I I O O O  -- 0xF8
+gaugeF9 :: Byte
+gaugeF9 = mkByte I I I I I O O I  -- 0xF9
+gaugeFA :: Byte
+gaugeFA = mkByte I I I I I O I O  -- 0xFA
+gaugeFB :: Byte
+gaugeFB = mkByte I I I I I O I I  -- 0xFB
+gaugeFC :: Byte
+gaugeFC = mkByte I I I I I I O O  -- 0xFC
+gaugeFD :: Byte
+gaugeFD = mkByte I I I I I I O I  -- 0xFD
+gaugeFE :: Byte
+gaugeFE = mkByte I I I I I I I O  -- 0xFE
+gaugeFF :: Byte
+gaugeFF = mkByte I I I I I I I I  -- 0xFF
+
+--
+-- Gauge pre-header: 8-byte constant
+--
+
+gaugeNul :: Byte
+gaugeNul = mkByte O O O O O O O O  -- 0x00
+
+gaugeFs :: Byte
+gaugeFs = mkByte O O O I I I O O  -- 0x1C
+
+gaugeGs :: Byte
+gaugeGs = mkByte O O O I I I O I  -- 0x1D
+
+gaugeRs :: Byte
+gaugeRs = mkByte O O O I I I I O  -- 0x1E
+
+gaugeUs :: Byte
+gaugeUs = mkByte O O O I I I I I  -- 0x1F
+
+gaugeSp :: Byte
+gaugeSp = mkByte O O I O O O O O  -- 0x20
+
+gaugePreHeader :: [Byte]
+gaugePreHeader = [gaugeFF, gaugeNul, gaugeFs, gaugeGs, gaugeRs, gaugeUs, gaugeSp, gaugeFF]
+
+--
+-- Check if a byte is in the F* gauge family
+--
+
+isGaugeByte :: Byte -> Bool
+isGaugeByte b = andB (geByte b gaugeF0) (leByte b gaugeFF)
+
+gaugeLowNibble :: Byte -> Nibble
+gaugeLowNibble (B _ n) = n
+
+--
+-- Match an 8-byte gauge pre-header
+--
+
+matchGaugePreHeader :: [Byte] -> Bool
+matchGaugePreHeader (g:nul:fs:gs:rs:us:sp:g':_) =
+  andB (andB (eqByte g g')
+             (eqByte nul gaugeNul))
+       (andB (andB (eqByte fs gaugeFs) (eqByte gs gaugeGs))
+             (andB (andB (eqByte rs gaugeRs) (eqByte us gaugeUs))
+                   (eqByte sp gaugeSp)))
+matchGaugePreHeader _ = Fls
+
+--
+-- Wittgenstein operator: gauge low nibble → operator code (0x00–0x0F)
+--
+
+wittOperatorCode :: Byte -> Nibble
+wittOperatorCode b = gaugeLowNibble b
+
+wittIsContradiction :: Byte -> Bool
+wittIsContradiction b = eqNibble (wittOperatorCode b) (N O O O O)
+
+wittIsTautology :: Byte -> Bool
+wittIsTautology b = eqNibble (wittOperatorCode b) (N I I I I)
+
+--
+-- The truth vector for a Wittgenstein operator is the binary representation
+-- of the low nibble's bits, where 0 = false (F) and 1 = true (T).
+-- This is a direct identity: the low nibble IS the truth vector.
+--
+
+wittTruthNibble :: Byte -> Nibble
+wittTruthNibble b = gaugeLowNibble b
+
+wittTruthBits :: Byte -> (Bit, Bit, Bit, Bit)
+wittTruthBits b =
+  let N a b' c d = gaugeLowNibble b
+  in (a, b', c, d)
+
+--
+-- Convert a gauge byte to its canonical operator code byte (0x00–0x0F)
+--
+
+gaugeToCodeByte :: Byte -> Byte
+gaugeToCodeByte b = let N a b' c d = gaugeLowNibble b
+                    in mkByte O O O O a b' c d
+
+--
+-- Build a RuleSet from a decision table
+--
+
+ruleSetFromDT :: DecisionTable -> RuleSet
+ruleSetFromDT dt =
+  RuleSet (case dtName dt of SSym s -> s; _ -> [])
+          []
+          (case dtOperator dt of SSym (s:_) -> s; _ -> gaugeFF)
+          []
+
+gaugeFromCode :: Nibble -> Byte
+gaugeFromCode (N a b c d) = B (N I I I I) (N a b c d)
+
+--
 -- Byte-list equality
 --
 
