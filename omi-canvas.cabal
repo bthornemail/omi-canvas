@@ -6,15 +6,26 @@ build-type: Simple
 library
   exposed-modules:
       OMI.Canvas
+      OMI.Canvas.JSON
+      OMI.Carrier
       OMI.Core
       OMI.DecisionTable
       OMI.Gauge
+      OMI.Gossip.Types
       OMI.Karnaugh
       OMI.Kernel
       OMI.Lisp
+      OMI.Markdown
+      OMI.Memory
+      OMI.Net.Frame
       OMI.Pipeline
+      OMI.Reconcile
       OMI.Relation
+      OMI.Runtime
+      OMI.Scope
+      OMI.Stream
       OMI.TruthGate
+      OMI.VCS
       OMI.Wittgenstein
   hs-source-dirs: src
   build-depends: base >=4.16 && <5

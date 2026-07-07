@@ -15,9 +15,11 @@ module OMI.Pipeline
   , buildCombinator
   , applyDelta
   , constructBlackboard
+  , constructBlackboardFromRelation
   , projectFace
   , attestProjection
   , resolveDeclaration
+  , blackboardRelation
   , attestationRelation
   ) where
 
@@ -87,6 +89,13 @@ applyDelta (InvalidCombinator rel) = InvalidDelta rel
 constructBlackboard :: Delta -> Blackboard
 constructBlackboard delta@(Delta _ rel) = Blackboard delta rel
 constructBlackboard (InvalidDelta rel) = InvalidBlackboard rel
+
+constructBlackboardFromRelation :: Relation -> Blackboard
+constructBlackboardFromRelation rel = Blackboard (InvalidDelta rel) rel
+
+blackboardRelation :: Blackboard -> Relation
+blackboardRelation (Blackboard _ rel) = rel
+blackboardRelation (InvalidBlackboard rel) = rel
 
 projectFace :: Blackboard -> ProjectionFace
 projectFace (Blackboard _ rel) = projectProjectionFace rel
