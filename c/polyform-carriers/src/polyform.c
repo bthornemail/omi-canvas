@@ -1,15 +1,6 @@
 #include "polyform.h"
 #include <string.h>
 
-static unsigned popcount_u8(uint8_t x) {
-    unsigned c = 0;
-    while (x) {
-        c += (x & 1u);
-        x >>= 1u;
-    }
-    return c;
-}
-
 bool pf_codepoint_from_u64(uint64_t value, pf_codepoint40_t *out) {
     if (!out || (value >> PF_CODEPOINT_BITS) != 0) {
         return false;
