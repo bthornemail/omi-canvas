@@ -83,7 +83,7 @@ The polytope registry (JSON) provides template metadata:
 
 ```
 registry JSON
-  → Haskell Registry type (archive/polytope/OmiCanvasPolytopeRegistry.hs)
+  → Haskell Registry type (omi-types/archive/polytope/OmiCanvasPolytopeRegistry.hs)
   → derive category, dimension, group, degree
   → polytope_to_codepoint() → 40-bit carrier handle
   → C polyform derivation
@@ -91,7 +91,7 @@ registry JSON
   → Canvas node template
 ```
 
-The Haskell type and JSON registry live in `archive/polytope/`. The `.canvas` toolbox file is at `archive/polytope/omi-polytope-toolbox.canvas`.
+The Haskell type and JSON registry live in `/home/main/omi/omi-types/archive/polytope/`. The `.canvas` toolbox file is at `omi-types/archive/polytope/omi-polytope-toolbox.canvas`.
 
 ## Relationship to OMI Proof Suite
 

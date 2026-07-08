@@ -53,7 +53,7 @@ Maintain these boundaries:
 - Keep adapter-only host types, such as `String` or JSON-shaped values, outside the v0 core modules.
 - Do not use hashes, checksums, digests, or signatures as protocol identity. They may appear only as external evidence metadata.
 - Do not introduce `OmiFragment`-style bundles with checksum, version vector, Reed-Solomon params, fragment metadata, or optional attestation as protocol identity.
-- Treat archive Runtime, Net, Gossip, Snapshot, Scheduler, Store, and Server modules as references only unless explicitly asked to build an adapter around `OMI.Carrier`.
+- Treat omi-types archive Runtime, Net, Gossip, Snapshot, Scheduler, Store, and Server modules as references only unless explicitly asked to build an adapter around `OMI.Carrier`. (Archived at `/home/main/omi/omi-types/archive/`.)
 
 ## Current Checkpoint
 

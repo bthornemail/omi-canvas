@@ -75,7 +75,7 @@ The API enforces the doctrine:
 - `OMI.Memory` models bitboards, bit-blips, blackboard faces, carrier faces, reconcile state, and version witnesses.
 - `OMI.Reconcile` builds the reconciliation path from bitboard/bit-blip witnesses to attestation.
 - `OMI.VCS` records only accepted reconciliation values that already have a receipt boundary.
-- `OMI.Stream`, `OMI.Net.Frame`, `OMI.Gossip.Types`, and `OMI.Runtime` are pure adapter shells for archive-derived stream/runtime concepts. They do not import archive runtime IO, snapshot hash authority, WAL authority, or storage authority.
+- `OMI.Stream`, `OMI.Net.Frame`, `OMI.Gossip.Types`, and `OMI.Runtime` are pure adapter shells for stream/runtime concepts (historical archive at `/home/main/omi/omi-types/archive/`). They do not import runtime IO, snapshot hash authority, WAL authority, or storage authority.
 
 ## Verification
 
@@ -103,17 +103,17 @@ ghc -isrc -fforce-recomp -fno-code app/Main.hs
 
 ## Polytope Toolbox
 
-The polytope registry (`archive/polytome/omi_regular_polytope_registry.json`) provides 160 polytope templates and 4 OMI configuration witnesses as projection data. The registry is not authority — rendering is projection only.
+The polytope registry (moved to `/home/main/omi/omi-types/archive/polytope/`) provides 160 polytope templates and 4 OMI configuration witnesses as projection data. The registry is not authority — rendering is projection only.
 
-- Haskell types and JSON loaders: `archive/polytome/OmiCanvasPolytopeRegistry.hs`
-- Obsidian/Canvas toolbox: `archive/polytome/omi-polytope-toolbox.canvas`
-- Normalized template JSON: `archive/polytome/omi-polytope-toolbox.normalized.json`
+- Haskell types and JSON loaders: `omi-types/archive/polytope/OmiCanvasPolytopeRegistry.hs`
+- Obsidian/Canvas toolbox: `omi-types/archive/polytope/omi-polytope-toolbox.canvas`
+- Normalized template JSON: `omi-types/archive/polytope/omi-polytope-toolbox.normalized.json`
 
 Usage flow:
 
 ```text
 registry JSON
-  → Haskell Registry type (archive/polytope/)
+  → Haskell Registry type (omi-types/archive/polytope/)
   → filter/group by dimension/category
   → render as toolbox cards
   → clone/drag into canvas as snap-to-grid templates
