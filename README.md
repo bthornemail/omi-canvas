@@ -120,13 +120,4 @@ registry JSON
   → attach accepted OMI relation metadata only after validation
 ```
 
-## Polyform Carrier Layer (C)
 
-The C polyform carrier bundle at `c/polyform-carriers/` provides a 40-bit codepoint projection handle and deterministic SVG/barcode/bitmap witness generation.
-
-- 40-bit codepoint layout: 5 bits basis, 5 bits rank, 5 bits group, 5 bits degree, 20 bits path/witness
-- Surfaces: polyform SVG, BEEtag 5x5, Aztec-like spiral, MaxiCode-like bullseye+hex, Smith chart, Genaille rods
-- The codepoint is a projection handle, not OMI identity
-- Rendering is projection, not validation
-
-See `c/polyform-carriers/README.md` for build and CLI details.
