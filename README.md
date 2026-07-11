@@ -119,7 +119,7 @@ registry JSON
   → clone/drag into canvas as snap-to-grid templates
   → attach accepted OMI relation metadata only after validation
 ```
-
+!!! Ths s deprecated we are not dong barces rght now
 ## Polyform Carrier Layer (C)
 
 The C polyform carrier bundle at `c/polyform-carriers/` provides a 40-bit codepoint projection handle and deterministic SVG/barcode/bitmap witness generation.
