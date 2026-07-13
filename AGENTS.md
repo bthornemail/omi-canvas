@@ -97,7 +97,11 @@ Byte table:
 The F-column projects tangentially from 0x1F into the printable branch.
 ?O_o is the readable branch of hidden US.
 
-### 8-tuple
+### 8-tuple (pedagogical scaffold)
+
+The 8-tuple is a pedagogical automata-style scaffold for explaining
+how OMI notation may be read as a bounded relation frame. It is not
+canonical structure, not an authority layer, and not a proof object.
 
 Q Σ L R δ s t r
 
@@ -110,13 +114,21 @@ s = start value
 t = accept / success / terminal output
 r = reject / failure / alternative
 
-Address cascade: S0=Q, S1=Σ, S2=L, S3=R, S4=δ, S5=s, S6=t, S7=r
+Address cascade (explanatory overlay, not canonical identity):
+  S0 may be explained as Q
+  S1 may be explained as Σ
+  S2 may be explained as L
+  S3 may be explained as R
+  S4 may be explained as δ
+  S5 may be explained as s
+  S6 may be explained as t
+  S7 may be explained as r
 
-Register compression:
-  CAR = Q & Σ
-  CDR = L & R
-  PAYLOAD = δ & s
-  MASK = t & r
+Register compression (pedagogical pairings):
+  CAR      ≈ Q / Σ
+  CDR      ≈ L / R
+  PAYLOAD  ≈ δ / s
+  MASK     ≈ t / r
 
 ### Null Ring
 
@@ -137,6 +149,7 @@ Full witness closure: 0x20 ^ 0x5F ^ 0x80 ^ 0xFF = 0x00
 - Do not promote #/ from carrier compatibility into OMI-native syntax
 - Do not treat the 8-tuple as 8×16-bit unless discussing later lowering
 - Do not treat the four dotted pairs as 4×32-bit integer widths
+- Do not treat the 8-tuple as canonical structure, authority, or proof object
 - Do not treat geometry drawings as authority
 - Do not let projection, route, notation, or gauge become authority
 
